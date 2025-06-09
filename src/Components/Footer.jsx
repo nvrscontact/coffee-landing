@@ -23,7 +23,7 @@ function NavBar() {
         <a className='hover-white' href='https://www.apple.com'>Help & Support</a>
         <a className='hover-white' href='https://www.apple.com'>Privacy & Cookies</a>
       </section>
-      <span className='flex flex-col text-white/30 text-[13px] '>Ruseau's Coffe © {date}
+      <span className='flex flex-col text-white/30 text-[11px] '>Ruseau's Coffe © {date}
         <span>All rights reserved.</span>
       </span>
     

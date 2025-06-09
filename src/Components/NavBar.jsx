@@ -7,7 +7,7 @@ function NavBar() {
   return (
     <>
     <section className='flex items-center'>
-      <section className='ml-5 pr-14'>
+      <section className='ml-5 pr-12'>
       <Link to='/'><img src={Hola} alt="" className='h-5' /></Link>
       </section>
         <section className='flex justify-center gap-3 my-8 text-[13px]'>
