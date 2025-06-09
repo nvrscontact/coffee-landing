@@ -10,9 +10,10 @@ function HomePage() {
           <span>Welcome!</span>
         </section>
 
-      <section className=''>
+      <section className='flex flex-col gap-4'>
 
-        <Reviews/>
+        <Reviews names='Katerin Rosetti' dates='December 2024' paragraph='Excellent food and sprites, during summer is great.' />
+        <Reviews names='Ambrosio Mascherandossk' dates='Summer of 2025' paragraph='Excellent food and sprites, during summer is great.' />
       </section>
 
       </section>
