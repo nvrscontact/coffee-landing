@@ -11,8 +11,8 @@ function HomePage() {
         </section>
 
       <section className='flex flex-col gap-4'>
-        <Reviews names='Katerin Rosetti' dates='December 2024' paragraph='Excellent food and sprites, during summer is great.' />
-        <Reviews names='Ambrosio Mascherandossk' dates='Summer of 2025' paragraph='Excellent food and sprites, during summer is great.' />
+        <Reviews names='Katterin R.' dates='December 2024' paragraph='Excellent food and sprites, during summer is great.' />
+        <Reviews names='Mascherandossk' dates='Summer of 2025' paragraph='Excellent food and sprites, during summer is great.' />
       </section>
 
       </section>
