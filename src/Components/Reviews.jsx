@@ -19,8 +19,8 @@ function Reviews({names,dates,paragraph,stars}) {
             <img src={Star_Out} alt="" className='h-4' />
           </section>
         </section>
-        <span className='mb-2'>{paragraph}</span>
-      <span className=' text-white/40 text-xs'>{dates}</span>
+        <span className='pb-1'>{paragraph}</span>
+      <span className=' text-white/40 text-[11px] '>{dates}</span>
     </div>
     </>
   )
