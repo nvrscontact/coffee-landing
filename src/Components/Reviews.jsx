@@ -9,7 +9,7 @@ function Reviews({names,dates,paragraph,stars}) {
     <>
     <div className='border border-white/30 p-2 w-fit max-w-60 overflow-hidden break-words rounded-xl text-pretty flex flex-col'>
         
-        <section className='flex gap-1 items-center'>
+        <section className='flex gap-2 items-center'>
           <h1 className='text-[12px] '>{names} </h1>
             
             <section className='flex'>
@@ -22,7 +22,7 @@ function Reviews({names,dates,paragraph,stars}) {
         
         </section>
       <span className=' text-white/40 text-[10px] mb-1 '>{dates}</span>
-      <span className='text-[11px] '>{paragraph}</span>
+      <span className='text-[9px] '>{paragraph}</span>
     </div>
     </>
   )

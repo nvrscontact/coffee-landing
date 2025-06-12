@@ -4,9 +4,9 @@ function NavBar() {
       const date = new Date().getFullYear()
   return (
     <>
-    <section className='flex flex-col gap-8 text-[13px] border-t border-white/30 my-8'>
+    <section className='flex flex-col gap-8 text-[13px] border-t border-white/30'>
 
-    <section className='ml-5 mt-10'>
+    <section className='ml-5 my-8'>
 
     <section className='flex mb-7'>
         <li className='flex gap-3 items-center'>
