@@ -7,7 +7,7 @@ function Layout() {
   return (
     <>
       <NavBar/>  
-    <section className='ml-5'>
+    <section className=''>
       <div>
         <Outlet/>
       </div>

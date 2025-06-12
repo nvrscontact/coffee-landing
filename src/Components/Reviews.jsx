@@ -7,7 +7,7 @@ import Star_Out from '../assets/star-out.svg'
 function Reviews({names,dates,paragraph,stars}) {
   return (
     <>
-    <div className='border border-white/30 p-2 w-52 overflow-hidden break-words rounded-xl flex flex-col'>
+    <div className='border border-white/30 p-2 w-fit max-w-60 overflow-hidden break-words rounded-xl text-pretty flex flex-col'>
         
         <section className='flex gap-1 items-center'>
           <h1 className='text-[12px] '>{names} </h1>
