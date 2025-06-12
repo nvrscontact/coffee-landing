@@ -1,10 +1,13 @@
 import React from 'react'
 import Reviews from '../Components/Reviews'
+
+
 import Vertical from '../assets/vertical-image.png'
 import OneFood from '../assets/one-food.jpg'
 import TwoFood from '../assets/two-food.jpg'
 import ThreeFood from '../assets/three-food.jpg'
 import FoodImages from '../Components/FoodImages'
+import Location from '../assets/location.svg'
 
 function HomePage() {
 
@@ -15,10 +18,10 @@ function HomePage() {
   
   let message;
 
-  if (hours >= '7' || hour <= '23'){
-    message = `Openning ${hour}`;
+  if (hours >= 7 && hour <= 23){
+    message = `Openning 7:00 - 23:00 `;
   }else{
-    message = `Ups it's closed ${hour}`;
+    message = `Coffe closed`;
   }
   console.log(message)
 
@@ -26,35 +29,45 @@ function HomePage() {
   return (
       <>
 
-      <section className='flex items-center gap-6 m-5'>
-        <section className='flex flex-col'>
-          <section className='w-40 flex flex-col'>
-            <h1 className='text-[20px] '>Rosseau's Coffe</h1>
-            <span className='text-[10px] mb-4 text-gray-400 '>Your need it or don't, give yourself a chance to come</span>
-          </section>
-          <button className='text-start text-[12px] border rounded-xl w-fit p-2 border-white/30 '>Book appointment</button>
-        </section>
-        <section className='flex flex-col text-center'>
-          <img src={Vertical} alt="" className=' w-45 rounded-xl mb-2' />
-          <span className='text-[10px]'><span>{message}</span></span>
-        </section>
-      </section>
+      <section className='flex gap-6 m-5 border-b pb-4 border-white/40'>
 
-      <section className='flex flex-col gap-10 mb-20'>
-        <FoodImages img={OneFood} title={'Katerin'} paragraph={'the best food are here, and you will want to eat!'}/>
-        <FoodImages img={TwoFood} title={'The Kuznetsova Bar'} paragraph={'the best food are here, and you will want to eat!'}/>
-        <FoodImages img={ThreeFood} title={'Katerin'} paragraph={'the best food are here, and you will want to eat!'}/>
-      </section>
+          <section className='w-40 flex flex-col gap-5 pt-5'>
+          
+            <section className='flex flex-col'>
+              <h1 className='text-[20px] '>Rosseau's Coffe</h1>
+              <section className='text-[10px] text-white/40 mt-1 mb-3'>
+                <p className='flex gap-2 items-center'>Alcoy, Alicante <img src={Location} alt="" className='h-3' /></p>
+                <span> Calle Na Saurina de Entenza 60.</span>
+              </section>
+            <button className='text-start text-[10px] border rounded-xl w-fit p-2 border-white/40 text-white/50 '>Book appointment</button>
+            </section>
+
+            <p className='text-[9px] text-white/60'>New summe recipes, surprise discounts, weeknds with events and a reconditioned envrionment</p>
+
+          </section>
+
+          <section className='flex flex-col text-end'>
+            <img src={Vertical} alt="" className=' w-45 rounded-xl mb-2' />
+            <span className='text-[10px] pr-4 text-white/40'><span>{message}</span></span>
+          </section>
+
+       </section>  
+
+        <section className='flex flex-col gap-10 mb-20'>
+          <FoodImages img={OneFood} title={'Katerin'} paragraph={'the best food are here, and you will want to eat!'}/>
+          <FoodImages img={TwoFood} title={'The Kuznetsova Bar'} paragraph={'the best food are here, and you will want to eat!'}/>
+          <FoodImages img={ThreeFood} title={'Katerin'} paragraph={'the best food are here, and you will want to eat!'}/>
+        </section>
 
 
       
       <section className='mx-5 mb-15'>
-        <h1 className='mb-6 text-white/40 text-[20px] '>What some people say...</h1>
-      <section className='flex flex-col gap-4'>
-        <Reviews names='Katterin R.' dates='December 2024' paragraph='Excellent food.' />
-        <Reviews names='Mascherandossk' dates='Summer of 2025' paragraph='Excellent food and sprites, during summer is great.' />
-        <Reviews names='Jennifer' dates='April 2023' paragraph='Its unique.' />
-      </section>
+        <h1 className='mb-4 text-white/50 text-[20px] '>What some people say...</h1>
+        <section className='flex flex-col gap-4'>
+          <Reviews names='Katterin R.' dates='December 2024' paragraph='Excellent food.' />
+          <Reviews names='Mascherandossk' dates='Summer of 2025' paragraph='Excellent food and sprites, during summer is great.' />
+          <Reviews names='Jennifer' dates='April 2023' paragraph='Its unique.' />
+        </section>
       </section>
 
       </>
