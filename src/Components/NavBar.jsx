@@ -12,7 +12,7 @@ function NavBar() {
       <section className=''>
       <Link to='/'><img src={Home} alt="" className='h-5' /></Link>
       </section>
-        <section className='flex justify-center gap-3 my-8 text-[11px]'>
+        <section className='flex justify-center gap-3 my-8 text-[12px] text-white/80'>
             <Link to='/menus'>Menus</Link>
             <Link to='/quotes'>Reservations</Link>
             <Link to='/gallery'>Gallery</Link>
