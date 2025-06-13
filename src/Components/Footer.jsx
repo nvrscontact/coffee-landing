@@ -16,14 +16,14 @@ function NavBar() {
         </li>
     </section>
 
-     <section className='flex flex-col gap-3 mb-7 text-white/50'>
+     <section className='flex flex-col gap-3 mb-7 text-white/50 font-[myfont]'>
         <a className='hover-white' href='https://www.apple.com'>Contact</a>
         <a className='hover-white' href='https://www.apple.com'>About Us</a>
         <a className='hover-white' href='https://www.apple.com'>Work with us</a>
         <a className='hover-white' href='https://www.apple.com'>Help & Support</a>
         <a className='hover-white' href='https://www.apple.com'>Privacy & Cookies</a>
       </section>
-      <span className='flex flex-col text-white/30 text-[11px] '>Ruseau's Coffe © {date}
+      <span className='flex flex-col text-white/30 text-[11px] cormorant-400 '>Ruseau's Coffe © {date}
         <span>All rights reserved.</span>
       </span>
     

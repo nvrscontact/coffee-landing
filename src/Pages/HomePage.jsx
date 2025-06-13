@@ -36,7 +36,7 @@ function HomePage() {
           <section className='w-40 flex flex-col gap-5 pt-5'>
           
             <section className='flex flex-col'>
-              <h1 className='text-[20px] '>Rosseau's Coffe</h1>
+              <h1 className='text-[20px] '>Russeau's Coffe</h1>
               <section className='text-[10px] text-white/40 mt-1 mb-3'>
                 <p className='flex gap-1 items-center cormorant-400 '><img src={Location} alt="" className='h-3' />Alcoy, Alicante</p>
                 <span className='cormorant-400'> Calle Na Saurina de Entenza 60.</span>
@@ -44,7 +44,7 @@ function HomePage() {
             <button className='text-start text-[10px] border rounded-xl w-fit p-2 border-white/40 text-white/50 '>Book appointment</button>
             </section>
 
-            <span className='text-[10px] text-white/60 cormorant-400 '>New summe recipes, surprise discounts, weeknds with events and a reconditioned envrionment</span>
+            <span className='text-[12px] text-white/60 font-[myfont] '>New summer recipes, surprise discounts, weeknds with events and a reconditioned envrionment</span>
 
           </section>
 

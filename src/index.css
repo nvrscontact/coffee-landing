@@ -1,8 +1,15 @@
 @import "tailwindcss";
 
 .cormorant-400 {
-   font-family: "Cormorant",sans-serif;
+   font-family: "Cormorant", Arial ;
   font-optical-sizing: auto;
   font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('./fonts/Fontspring-DEMO-theseasons-bd.otf') format('truetype');
+  font-weight: normal;
   font-style: normal;
 }
