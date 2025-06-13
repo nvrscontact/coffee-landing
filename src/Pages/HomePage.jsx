@@ -12,9 +12,10 @@ import RedCircle from '../assets/redcircle.svg'
 import GreenCircle from '../assets/greencircle.svg'
 
 import Schedule from '../assets/schedule.svg'
-import Coffee from '../assets/coffee.svg'
+import Coffe from '../assets/coffe.svg'
+import Wifi from '../assets/wifi.svg'
 import Wine from '../assets/wine.svg'
-import Wifi from '../assets/Wifi.svg'
+import Spoon from '../assets/spoon.svg'
 
 function HomePage() {
 
@@ -49,10 +50,10 @@ function HomePage() {
           <section>
 
             <p className='flex gap-2 text-[12px] text-white/50 border-t border-white/20 py-3 cormorant-400'>
-            <span><img src={Coffee} alt="" className='h-4' /></span>
-            <span><img src={Schedule} alt="" className='h-4' /></span>
             <span><img src={Wine} alt="" className='h-4' /></span>
+            <span><img src={Coffe} alt="" className='h-4' /></span>
             <span><img src={Wifi} alt="" className='h-4' /></span>
+            <span><img src={Spoon} alt="" className='h-4' /></span>
             </p>
 
             <p className='flex flex-col gap-1 text-[9px] text-white/30 '>

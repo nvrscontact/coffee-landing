@@ -4,7 +4,7 @@ function NavBar() {
       const date = new Date().getFullYear()
   return (
     <>
-    <section className='flex flex-col gap-8 text-[13px] border-t border-white/30'>
+    <section className='flex flex-col gap-8 text-[14px] border-t border-white/30'>
 
     <section className='ml-5 my-8'>
 
@@ -23,7 +23,7 @@ function NavBar() {
         <a className='hover-white' href='https://www.apple.com'>Help & Support</a>
         <a className='hover-white' href='https://www.apple.com'>Privacy & Cookies</a>
       </section>
-      <span className='flex flex-col text-white/30 text-[11px] cormorant-400 '>Ruseau's Coffe © {date}
+      <span className='flex flex-col text-white/30 text-[12px] cormorant-400 '>Ruseau's Coffe © {date}
         <span>All rights reserved.</span>
       </span>
     
