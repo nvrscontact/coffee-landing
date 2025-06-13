@@ -23,7 +23,7 @@ function HomePage() {
   if (hours >= 7 && hour <= 23){
     message = `Openning 7:00 - 23:00 <img> `;
   }else{
-    message = <img src='../assets/redcircle.svg' className='h-5'/> + `Coffe closed`;
+    message = `Now Closed`;
   }
   console.log(message)
 
@@ -36,22 +36,24 @@ function HomePage() {
           <section className='w-40 flex flex-col gap-5 pt-5'>
           
             <section className='flex flex-col'>
-              <h1 className='text-[20px] '>Russeau's Coffe</h1>
-              <section className='text-[10px] text-white/40 mt-1 mb-3'>
-                <p className='flex gap-1 items-center cormorant-400 '><img src={Location} alt="" className='h-3' />Alcoy, Alicante</p>
+              <h1 className='text-[18px]'>Russeau's Coffe</h1>
+              <section className='text-[11px] text-white/40 '>
+                <p className='flex gap-1 items-center cormorant-400 '>Alcoy, Alicante<img src={Location} alt="" className='h-3' /></p>
                 <span className='cormorant-400'> Calle Na Saurina de Entenza 60.</span>
               </section>
-            <button className='text-start text-[10px] border rounded-xl w-fit p-2 border-white/40 text-white/50 '>Book appointment</button>
             </section>
 
-            <span className='text-[12px] text-white/60 font-[myfont] '>New summer recipes, surprise discounts, weeknds with events and a reconditioned envrionment</span>
+            <span className='text-[12px] text-white/60 border-t border-white/30 py-3 cormorant-400'>New summer recipes, surprise discounts, weeknds with events and a reconditioned envrionment</span>
 
           </section>
 
-          <section className='flex flex-col text-end'>
-            <img src={Vertical} alt="" className=' w-45 rounded-xl mb-2' />
-            <span className='text-[10px] pr-4 text-white/40'><span>{message}</span></span>
-          </section>
+            <section className='flex flex-col items-center'>
+            <section className='relative mb-2 items-center'>
+              <img src={Vertical} alt="" className=' w-45 rounded-xl' />
+              <span className='text-[9px] text-white/70 absolute bottom-2  border border-white/30 ml-2 rounded-[8px] p-1 backdrop-blur-lg bg-black/30'><span>{message}</span></span>
+            </section>
+            <button className='text-[10px] border border-white/30 p-2 rounded-xl w-fit'>Book Appointment</button>
+            </section>
 
        </section>  
 
@@ -64,7 +66,7 @@ function HomePage() {
 
       
       <section className='mx-5 mb-15'>
-        <h1 className='mb-4 text-white/50 text-[20px] '>What some people say...</h1>
+        <h1 className='mb-4 text-white/50 text-[20px] cormorant-400'>What some people say...</h1>
         <section className='flex flex-col gap-4'>
           <Reviews names='Katterin R.' dates='December 2024' paragraph='Excellent food.' />
           <Reviews names='Mascherandossk' dates='Summer of 2025' paragraph='Excellent food and sprites, during summer is great.' />

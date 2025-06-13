@@ -16,7 +16,7 @@ function NavBar() {
         </li>
     </section>
 
-     <section className='flex flex-col gap-3 mb-7 text-white/50 font-[myfont]'>
+     <section className='flex flex-col gap-3 mb-7 text-white/50 cormorant-400'>
         <a className='hover-white' href='https://www.apple.com'>Contact</a>
         <a className='hover-white' href='https://www.apple.com'>About Us</a>
         <a className='hover-white' href='https://www.apple.com'>Work with us</a>
