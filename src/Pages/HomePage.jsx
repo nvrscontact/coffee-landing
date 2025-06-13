@@ -14,6 +14,7 @@ import GreenCircle from '../assets/greencircle.svg'
 import Schedule from '../assets/schedule.svg'
 import Coffee from '../assets/coffee.svg'
 import Wine from '../assets/wine.svg'
+import Wifi from '../assets/Wifi.svg'
 
 function HomePage() {
 
@@ -47,13 +48,14 @@ function HomePage() {
 
           <section>
 
-            <p className='flex gap-2 text-[12px] text-white/50 border-t border-white/20 py-2 cormorant-400'>
+            <p className='flex gap-2 text-[12px] text-white/50 border-t border-white/20 py-3 cormorant-400'>
             <span><img src={Coffee} alt="" className='h-4' /></span>
             <span><img src={Schedule} alt="" className='h-4' /></span>
             <span><img src={Wine} alt="" className='h-4' /></span>
+            <span><img src={Wifi} alt="" className='h-4' /></span>
             </p>
 
-            <p className='flex flex-col gap-2 text-[9px] text-[#886a31c7] '>
+            <p className='flex flex-col gap-1 text-[9px] text-white/30 '>
               <span>Do you work here.</span>
               <span>Variety of drinks and wines </span>
               <span>Good ilmumination and concentration </span>
@@ -65,7 +67,7 @@ function HomePage() {
             <section className='relative mb-2 items-center'>
               <img src={Vertical} alt="" className=' w-45 rounded-xl' />
               <p className='absolute bottom-2 left-6'>
-               <button className='px-4 p-2 flex gap-1 items-center text-[10px] text-[#c7c7c7] border border-white/30 rounded-xl backdrop-blur-lg'><img src={Schedule} alt="" className='h-[10px] ' /> Make Reservation</button>
+               <button className='px-4 p-2 flex gap-1 items-center text-[10px] text-[#c7c7c7] border border-white/30 rounded-xl backdrop-blur-xl'><img src={Schedule} alt="" className='h-[10px] ' /> Make Reservation</button>
               </p>
             </section>
               <span className='text-[9px] text-center text-[#cea65bc7] ml-2'><span>{message}</span></span>

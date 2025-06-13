@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
-import Home from '../assets/homes.svg'
+import Home from '../assets/home.svg'
 import Languages from '../assets/languages.svg'
 import Sun from '../assets/sun.svg'
 
@@ -12,7 +12,7 @@ function NavBar() {
       <section className=''>
       <Link to='/'><img src={Home} alt="" className='h-5' /></Link>
       </section>
-        <section className='flex justify-center gap-4 my-8 text-[13px] text-white/80'>
+        <section className='flex justify-center gap-5 my-8 text-[13px] text-white/80'>
             <Link to='/menus'>Menus</Link>
             <Link to='/quotes'>Reservations</Link>
             <Link to='/gallery'>Gallery</Link>
