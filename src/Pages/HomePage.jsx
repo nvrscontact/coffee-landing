@@ -11,6 +11,9 @@ import Location from '../assets/location.svg'
 import RedCircle from '../assets/redcircle.svg'
 import GreenCircle from '../assets/greencircle.svg'
 
+import Schedule from '../assets/schedule.svg'
+import Wine from '../assets/wine.svg'
+
 function HomePage() {
 
   const timezone = new Date();
@@ -41,10 +44,20 @@ function HomePage() {
               </section>
             </section>
 
+          <section>
+
             <p className='flex gap-2 text-[12px] text-white/50 border-t border-white/20 py-2 cormorant-400'>
-            <span className='flex items-center'><img src={RedCircle} alt="" className='h-2' />hola</span>
-            <span><img src={RedCircle} alt="" className='h-2' />hola</span>
+            <span><img src={Schedule} alt="" className='h-4' /></span>
+            <span><img src={Wine} alt="" className='h-4' /></span>
+            <span><img src={Schedule} alt="" className='h-4' /></span>
             </p>
+
+            <p className='flex flex-col gap-2 text-[9px] '>
+              <span>Do you work here.</span>
+              <span>Variety of drinks and wines </span>
+              <span>Good ilmumination and concentration </span>
+            </p>
+          </section>
 
           </section>
 
