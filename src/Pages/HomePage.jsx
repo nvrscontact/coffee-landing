@@ -37,7 +37,7 @@ function HomePage() {
           
             <section className='flex flex-col'>
               <h1 className='text-[18px]'>Russeau's Coffe</h1>
-              <section className='text-[11px] text-white/40 '>
+              <section className='text-[11px] text-white/50 '>
                 <p className='flex gap-1 items-center cormorant-400 '>Alcoy, Alicante<img src={Location} alt="" className='h-3' /></p>
                 <span className='cormorant-400'> Calle Na Saurina de Entenza 60.</span>
               </section>
@@ -47,12 +47,12 @@ function HomePage() {
 
           </section>
 
-            <section className='flex flex-col items-center'>
+            <section className='flex flex-col '>
             <section className='relative mb-2 items-center'>
               <img src={Vertical} alt="" className=' w-45 rounded-xl' />
-              <span className='text-[9px] text-white/70 absolute bottom-2  border border-white/30 ml-2 rounded-[8px] p-1 backdrop-blur-lg bg-black/30'><span>{message}</span></span>
+            <button className='text-[10px] text-white/70 border left-9 border-white/30 p-2 rounded-xl w-fit absolute bottom-2 backdrop-blur-lg'>Book Appointment</button>
             </section>
-            <button className='text-[10px] border border-white/30 p-2 rounded-xl w-fit'>Book Appointment</button>
+              <span className='text-[9px] text-center text-white/40 ml-2'><span>{message}</span></span>
             </section>
 
        </section>  
