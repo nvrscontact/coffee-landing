@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+.cormorant-400 {
+   font-family: "Cormorant",sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

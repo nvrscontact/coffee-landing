@@ -8,6 +8,8 @@ import TwoFood from '../assets/two-food.jpg'
 import ThreeFood from '../assets/three-food.jpg'
 import FoodImages from '../Components/FoodImages'
 import Location from '../assets/location.svg'
+import RedCircle from '../assets/redcircle.svg'
+import GreenCircle from '../assets/greencircle.svg'
 
 function HomePage() {
 
@@ -19,9 +21,9 @@ function HomePage() {
   let message;
 
   if (hours >= 7 && hour <= 23){
-    message = `Openning 7:00 - 23:00 `;
+    message = `Openning 7:00 - 23:00 <img> `;
   }else{
-    message = `Coffe closed`;
+    message = <img src='../assets/redcircle.svg' className='h-5'/> + `Coffe closed`;
   }
   console.log(message)
 
@@ -36,13 +38,13 @@ function HomePage() {
             <section className='flex flex-col'>
               <h1 className='text-[20px] '>Rosseau's Coffe</h1>
               <section className='text-[10px] text-white/40 mt-1 mb-3'>
-                <p className='flex gap-2 items-center'>Alcoy, Alicante <img src={Location} alt="" className='h-3' /></p>
-                <span> Calle Na Saurina de Entenza 60.</span>
+                <p className='flex gap-1 items-center cormorant-400 '><img src={Location} alt="" className='h-3' />Alcoy, Alicante</p>
+                <span className='cormorant-400'> Calle Na Saurina de Entenza 60.</span>
               </section>
             <button className='text-start text-[10px] border rounded-xl w-fit p-2 border-white/40 text-white/50 '>Book appointment</button>
             </section>
 
-            <p className='text-[9px] text-white/60'>New summe recipes, surprise discounts, weeknds with events and a reconditioned envrionment</p>
+            <span className='text-[10px] text-white/60 cormorant-400 '>New summe recipes, surprise discounts, weeknds with events and a reconditioned envrionment</span>
 
           </section>
 
