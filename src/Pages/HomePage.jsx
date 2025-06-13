@@ -52,7 +52,7 @@ function HomePage() {
             <span><img src={Schedule} alt="" className='h-4' /></span>
             </p>
 
-            <p className='flex flex-col gap-2 text-[9px] '>
+            <p className='flex flex-col gap-2 text-[9px] text-[#c7c7c7] '>
               <span>Do you work here.</span>
               <span>Variety of drinks and wines </span>
               <span>Good ilmumination and concentration </span>
