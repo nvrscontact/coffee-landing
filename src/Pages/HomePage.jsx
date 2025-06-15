@@ -75,7 +75,7 @@ function HomePage() {
                 </section>
 
                 <section className='flex items-center gap-2'>
-                  <button className='p-2 gap-1 flex items-center border border-white/30 rounded-[8px] w-fit'><img src={Schedule} alt="" className='h-[10px] '/>Reservations</button>
+                  <button className='p-2 gap-1 flex items-center rounded-[8px] w-fit text-white bg-white/10'><img src={Schedule} alt="" className='h-[10px] '/>Reservations</button>
                   <span className='text-[9px] text-center'><span>{message}</span></span>
                 </section>  
 
@@ -83,11 +83,10 @@ function HomePage() {
 
       </div>  
 
-      <div className='flex flex-col gap-10 mb-6'>
-        <FoodImages img={OneFood} title={'Katerin'} paragraph={'the best food are here, and you will want to eat!'}/>
-        <FoodImages img={TwoFood} title={'The Kuznetsova Bar'} paragraph={'the best food are here, and you will want to eat!'}/>
-        <FoodImages img={ThreeFood} title={'Katerin'} paragraph={'the best food are here, and you will want to eat!'}/>
+      <div className='mb-6 ml-5 flex flex-col items-center'>
+        <h1>Top 3 plates</h1>
       </div>
+
 
       <div className='mx-5 mb-6'>
         <h1 className='mb-4 text-white/50 text-[20px]'>What some people say...</h1>

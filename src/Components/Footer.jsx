@@ -33,11 +33,11 @@ function NavBar() {
         </span>
 
         <section className='flex gap-3'>
-          <img src={apple_pay} alt="" className='h-6' />
-          <img src={american_express_pay} alt="" className='h-6' />
-          <img src={paypal_pay} alt="" className='h-6' />
-          <img src={mastercard_pay} alt="" className='h-6' />
-          <img src={visa_pay} alt="" className='h-6' />
+          <img src={apple_pay} alt="" className='h-7' />
+          <img src={american_express_pay} alt="" className='h-7' />
+          <img src={paypal_pay} alt="" className='h-7' />
+          <img src={mastercard_pay} alt="" className='h-7' />
+          <img src={visa_pay} alt="" className='h-7' />
        
         </section>
       
