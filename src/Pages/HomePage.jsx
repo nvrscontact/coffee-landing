@@ -25,7 +25,7 @@ function HomePage() {
   let message;
 
   if (hora >= 7 && hora <= 23){
-    message = `Openning 7:00 - 23:00 `;
+    message = `Openning `;
   }else{
     message = `Now Closed`;
   }
@@ -40,10 +40,10 @@ function HomePage() {
           <section className='w-40 flex flex-col gap-2 pt-5'>
           
             <section className='flex flex-col'>
-              <h1 className='text-[20px] text-[#cea65bc7]'>Rosetti's Coffee</h1>
+              <h1 className='text-[20px] text-[#cea65bc7] fira-sans-extralight'>Rosetti's Coffee</h1>
               <section className='text-[11px] text-white/60 '>
-                <p className='flex gap-1 items-center cormorant-400 '>Alcoy, Alicante<img src={Location} alt="" className='h-3' /></p>
-                <span className='cormorant-400'> Calle Na Saurina de Entenza 60.</span>
+                <p className='flex gap-1 items-center fira-sans-extralight '>Alcoy, Alicante<img src={Location} alt="" className='h-3' /></p>
+                <span className='fira-sans-extralight'> Calle Na Saurina de Entenza 60.</span>
               </section>
             </section>
 
@@ -52,8 +52,8 @@ function HomePage() {
             <p className='flex gap-2 text-[12px] text-white/50 border-t border-white/20 py-3 cormorant-400'>
             <span><img src={Wine} alt="" className='h-4' /></span>
             <span><img src={Coffe} alt="" className='h-4' /></span>
-            <span><img src={Wifi} alt="" className='h-4' /></span>
             <span><img src={Spoon} alt="" className='h-4' /></span>
+            <span><img src={Wifi} alt="" className='h-4' /></span>
             </p>
 
             <p className='flex flex-col gap-1 text-[10px] text-white/30 '>
@@ -61,18 +61,19 @@ function HomePage() {
               <span>Variety of drinks and wines </span>
               <span>Good ilmumination and concentration </span>
             </p>
+
           </section>
 
           </section>
             
             <section className='flex flex-col '>
               <section className='relative mb-2 items-center'>
-                  <img src={Vertical} alt="" className=' w-45 rounded-xl' />
+                  <img src={Vertical} alt="" className='w-45 rounded-xl' />
                   <p className='absolute bottom-2 left-6'>
                   <button className='px-4 p-2 flex gap-1 items-center text-[10px] text-[#c7c7c7] border border-white/30 rounded-xl backdrop-blur-xl'><img src={Schedule} alt="" className='h-[10px] ' /> Make Reservation</button>
                   </p>
               </section>
-                <span className='text-[9px] text-center text-[#cea65bc7] ml-2'><span>{message}</span></span>
+                <span className='text-[9px] text-center ml-2'><span>{message}</span></span>
             </section>
        </section>  
 
