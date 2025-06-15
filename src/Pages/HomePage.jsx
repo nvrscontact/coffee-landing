@@ -66,16 +66,16 @@ function HomePage() {
             </section>
           </div>
             
-            <section className='flex flex-col gap-2 text-[10px] text-white/60'>
+            <section className='flex flex-col items-center gap-2 text-[10px] text-white/60'>
                
                 <section className='grid grid-cols-2 grid-rows-2 gap-2'>
-                <img src={Grid_Coffe_One} alt="" className='h-24 w-20 object-cover' />
-                <img src={Grid_Coffe_Two} alt="" className='h-24 w-20 object-cover ' />
-                <img src={Grid_Coffe_Three} alt="" className='h-24 col-span-2' />
+                <img src={Grid_Coffe_One} alt="" className='h-24 w-20 object-cover rounded-xs' />
+                <img src={Grid_Coffe_Two} alt="" className='h-24 w-20 object-cover rounded-xs' />
+                <img src={Grid_Coffe_Three} alt="" className='h-24 col-span-2 rounded-xs' />
                 </section>
 
                 <section className='flex items-center gap-2'>
-                  <button className='p-2 gap-1 flex items-center border border-white/30 rounded-[8px] w-fit'><img src={Schedule} alt="" className='h-[10px] '/> Make Reservation</button>
+                  <button className='p-2 gap-1 flex items-center border border-white/30 rounded-[8px] w-fit'><img src={Schedule} alt="" className='h-[10px] '/>Reservation</button>
                   <span className='text-[9px] text-center'><span>{message}</span></span>
                 </section>  
 
@@ -99,6 +99,7 @@ function HomePage() {
           <Reviews names='Jennifer' dates='April 2023' paragraph='Its unique.' />
         </section>
       </div>
+      
 
       </>
   )
