@@ -2,7 +2,11 @@ import React from 'react'
 import Reviews from '../Components/Reviews'
 
 
-import CoffeeShop from '../assets/coffee_shop.jpg'
+import Grid_Coffe_One from '../assets/grid_coffee_one.jpg'
+import Grid_Coffe_Two from '../assets/grid_coffee_two.jpg'
+import Grid_Coffe_Three from '../assets/grid_coffee_three.jpg'
+
+
 import OneFood from '../assets/one-food.jpg'
 import TwoFood from '../assets/two-food.jpg'
 import ThreeFood from '../assets/three-food.jpg'
@@ -35,7 +39,7 @@ function HomePage() {
   return (
       <>
 
-      <div className='flex gap-6 ml-5 pb-4'>
+      <div className='flex gap-6 m-5 pb-4'>
 
           <div className='w-40 flex flex-col gap-2 pt-5'>
             <section className='flex flex-col'>
@@ -62,12 +66,19 @@ function HomePage() {
             </section>
           </div>
             
-            <section className='flex flex-col gap-2 text-[10px] text-white/60 '>
-                <img src={CoffeeShop} alt="" className='w-48 h-52 rounded-xl' />
+            <section className='flex flex-col gap-2 text-[10px] text-white/60'>
+               
+                <section className='grid grid-cols-2 grid-rows-2 gap-2'>
+                <img src={Grid_Coffe_One} alt="" className='h-24 w-20 object-cover' />
+                <img src={Grid_Coffe_Two} alt="" className='h-24 w-20 object-cover ' />
+                <img src={Grid_Coffe_Three} alt="" className='h-24 col-span-2' />
+                </section>
+
                 <section className='flex items-center gap-2'>
-                  <button className='p-2 gap-1 flex items-center border border-white/30 rounded-xl w-fit'><img src={Schedule} alt="" className='h-[10px] '/> Make Reservation</button>
+                  <button className='p-2 gap-1 flex items-center border border-white/30 rounded-[8px] w-fit'><img src={Schedule} alt="" className='h-[10px] '/> Make Reservation</button>
                   <span className='text-[9px] text-center'><span>{message}</span></span>
                 </section>  
+
             </section>
 
        </div>  
