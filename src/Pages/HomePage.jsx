@@ -38,8 +38,8 @@ function HomePage() {
 
   return (
       <>
-
-      <div className='flex gap-6 m-5 pb-4'>
+  
+      <div className='flex gap-6 m-5 pb-4 fira-sans-thin '>
 
           <div className='w-40 flex flex-col gap-2 pt-5'>
             <section className='flex flex-col'>
@@ -51,7 +51,7 @@ function HomePage() {
             </section>
 
             <section>
-              <p className='flex gap-2 text-[12px] text-white/50 border-t border-white/20 py-3 cormorant-400'>
+              <p className='flex gap-2 text-[12px] text-white/50 border-t border-white/20 py-3'>
               <span><img src={Wine} alt="" className='h-4' /></span>
               <span><img src={Coffe} alt="" className='h-4' /></span>
               <span><img src={Spoon} alt="" className='h-4' /></span>
@@ -75,24 +75,22 @@ function HomePage() {
                 </section>
 
                 <section className='flex items-center gap-2'>
-                  <button className='p-2 gap-1 flex items-center border border-white/30 rounded-[8px] w-fit'><img src={Schedule} alt="" className='h-[10px] '/>Reservation</button>
+                  <button className='p-2 gap-1 flex items-center border border-white/30 rounded-[8px] w-fit'><img src={Schedule} alt="" className='h-[10px] '/>Reservations</button>
                   <span className='text-[9px] text-center'><span>{message}</span></span>
                 </section>  
 
             </section>
 
-       </div>  
+      </div>  
 
-      <div className='flex flex-col gap-10 mb-20'>
+      <div className='flex flex-col gap-10 mb-6'>
         <FoodImages img={OneFood} title={'Katerin'} paragraph={'the best food are here, and you will want to eat!'}/>
         <FoodImages img={TwoFood} title={'The Kuznetsova Bar'} paragraph={'the best food are here, and you will want to eat!'}/>
         <FoodImages img={ThreeFood} title={'Katerin'} paragraph={'the best food are here, and you will want to eat!'}/>
       </div>
 
-
-      
-      <div className='mx-5 mb-10'>
-        <h1 className='mb-4 text-white/50 text-[20px] cormorant-400'>What some people say...</h1>
+      <div className='mx-5 mb-6'>
+        <h1 className='mb-4 text-white/50 text-[20px]'>What some people say...</h1>
         <section className='flex flex-col gap-4'>
           <Reviews names='Katterin R.' dates='December 2024' paragraph='Excellent food.' />
           <Reviews names='Mascherandossk' dates='Summer of 2025' paragraph='Excellent food and sprites, during summer is great.' />
