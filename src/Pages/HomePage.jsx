@@ -41,10 +41,10 @@ function HomePage() {
           
             <section className='flex flex-col'>
               <h1 className='text-[20px] text-[#cea65bc7] fira-sans-extralight'>Rosetti's Coffee</h1>
-              <section className='text-[11px] text-white/60 '>
-                <p className='flex gap-1 items-center fira-sans-extralight '>Alcoy, Alicante<img src={Location} alt="" className='h-3' /></p>
-                <span className='fira-sans-extralight'> Calle Na Saurina de Entenza 60.</span>
-              </section>
+              <p className='text-[11px] text-white/60 '>
+                <span className='flex gap-1 items-center fira-sans-extralight '>Alcoy, Alicante<img src={Location} alt="" className='h-3' /></span>
+                <span className='fira-sans-extralight text-[10px] '> Calle Na Saurina de Entenza 60.</span>
+              </p>
             </section>
 
           <section>
