@@ -39,11 +39,15 @@ function HomePage() {
   return (
       <>
   
-      <div className='flex gap-6 m-5 pb-4 fira-sans-thin '>
+      <div className='flex gap-1 m-5 pb-4 fira-sans-thin '>
 
-          <div className='w-40 flex flex-col gap-2 pt-5'>
+          <div className='flex flex-col pr-2'>
+
+            <h1 className='text-[24px] text-[#cea65bc7] fira-sans-extralight'>Rosetti's Coffee</h1>
+            
+            <div className='w-40 flex flex-col gap-2'>
+
             <section className='flex flex-col'>
-              <h1 className='text-[20px] text-[#cea65bc7] fira-sans-extralight'>Rosetti's Coffee</h1>
               <p className='text-[11px] text-white/60 '>
                 <span className='flex gap-1 items-center fira-sans-extralight '>Alcoy, Alicante<img src={Location} alt="" className='h-3' /></span>
                 <span className='fira-sans-extralight text-[10px] '> Calle Na Saurina de Entenza 60.</span>
@@ -64,9 +68,11 @@ function HomePage() {
                 <span>Good ilmumination and concentration </span>
               </p>
             </section>
+            </div>
+
           </div>
             
-            <section className='flex flex-col items-center gap-2 text-[10px] text-white/60'>
+          <section className='flex flex-col items-center gap-2 text-[10px] text-white/60'>
                
                 <section className='grid grid-cols-2 grid-rows-2 gap-2'>
                 <img src={Grid_Coffe_One} alt="" className='h-24 w-20 object-cover rounded-xs' />
@@ -79,12 +85,30 @@ function HomePage() {
                   <span className='text-[9px] text-center'><span>{message}</span></span>
                 </section>  
 
-            </section>
+          </section>
 
       </div>  
 
-      <div className='mb-6 ml-5 flex flex-col items-center'>
-        <h1>Top 3 plates</h1>
+      <div className='mb-6 mx-3 flex flex-col gap-10'>
+        <h1 className='text-center'>Our three best and most <br />sold dishes</h1>
+
+        <section className=''>
+          <h1 className='text-[#cea65bc7] pb-1'>The Plate Imaginatel</h1>
+          <p className='text-[9px] max-w-60 text-white/50 pb-4'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique fuga earum asperiores modi, eveniet quas, sed facilis nihil officia repellat est amet facere.</p>
+          <img src={Grid_Coffe_One} alt="" className='h-80' />
+        </section>
+
+        <section className='flex flex-col items-end'>
+          <h1 className='text-[#cea65bc7] pb-1'>The Plate Imaginatel</h1>
+          <p className='text-[9px] max-w-60 text-white/50 pb-4 text-end'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique fuga earum asperiores modi, eveniet quas, sed facilis nihil officia repellat est</p>
+          <img src={Grid_Coffe_Two} alt="" className='h-80 w-fit ' />
+        </section>
+
+        <section className=''>
+          <h1 className='text-[#cea65bc7] pb-1'>The Plate Imaginatel</h1>
+          <p className='text-[9px] max-w-60 text-white/50 pb-4'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique fuga earum asperiores modi, eveniet quas, sed facilis nihil officia repellat est amet</p>
+          <img src={Grid_Coffe_One} alt="" className='h-80' />
+        </section>
       </div>
 
 
