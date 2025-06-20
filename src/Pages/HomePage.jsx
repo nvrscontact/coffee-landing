@@ -34,9 +34,9 @@ function HomePage() {
   return (
       <>
   
-      <div className='flex gap-1 my-8 mx-4 pb-4 fira-sans-thin '>
+      <div className='flex justify-between gap-1 my-8 pb-4 fira-sans-thin '>
 
-          <section className='flex flex-col pr-2 my-2'>
+          <section className='flex flex-col my-2 ml-4'>
 
               <h1 className='text-[24px] text-[#cea65bc7] fira-sans-extralight'>Rosetti's Coffee</h1>
               
@@ -67,13 +67,9 @@ function HomePage() {
 
           </section>
             
-          <section className='flex flex-col items-center gap-2 text-[10px] text-white/60'>
+          <section className='flex flex-col items-center gap-2 text-[10px] text-white/60 mr-2'>
                
-                <section className='grid grid-cols-2 grid-rows-2 gap-2'>
-                  <img src={Grid_Coffe_One} alt="" className='h-24 w-20 object-cover rounded-xs' />
-                  <img src={Grid_Coffe_Two} alt="" className='h-24 w-20 object-cover rounded-xs' />
-                  <img src={Grid_Coffe_Three} alt="" className='h-24 col-span-2 rounded-xs' />
-                </section>
+                  <img src={Grid_Coffe_One} alt="" className='h-48 w-36 object-cover rounded-xs' />
 
                 <section className='flex flex-col gap-1'>
                   <button className='p-2 gap-1 flex items-center w-fit text-white bg-white/10'><img src={Schedule} alt="" className='h-[10px] '/>Reservations</button>

@@ -11,7 +11,7 @@ function NavBar() {
   return (
     <>
       
-      <div className='bg-white/10 fira-sans-light my-5 '>
+      <div className='bg-white/10 fira-sans-light my-3 '>
 
         <section className='mx-5 flex justify-between items-center py-2'>
           <Link to='/'><img src={Home} alt="" className='h-4' /></Link>
