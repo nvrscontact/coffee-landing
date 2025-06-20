@@ -44,9 +44,9 @@ function Presentation() {
                       </p>
     
                       <p className='flex flex-col gap-1 text-[10px] text-white/90'>
-                        <span className='bg-white/10 p-[6px] rounded-[6px]'>Monday - Friday (9:00 to 22:00)  </span>
-                        <span className='bg-white/10 p-[6px] rounded-[6px]'>Sunday - Saturday (9:00 to 20:00) </span>
-                        <span className='bg-white/10 p-[6px] rounded-[6px]'>Good ilmumination </span>
+                        <span className='bg-white/10 p-[6px] rounded-[6px] w-fit '>Monday - Friday (9:00 to 22:00)  </span>
+                        <span className='bg-white/10 p-[6px] rounded-[6px] w-fit'>Sunday - Saturday (9:00 to 20:00) </span>
+                        <span className='bg-white/10 p-[6px] rounded-[6px] w-fit'>Good ilmumination </span>
                       </p>
                     </section>
                   </div>
@@ -55,7 +55,7 @@ function Presentation() {
                 
               <section className='flex flex-col items-center gap-2 text-[10px] text-white/70 mr-2'>
     
-                    <span className='text-[9px] flex justify-cente text-white/50 fira-sans-extralight'><span>Currently {message}</span></span>
+                    <span className='text-[10px] flex justify-cente text-white/50 fira-sans-extralight'><span>Currently {message}</span></span>
     
                     <img src={Grid_Coffe_One} alt="" className='h-52 w-32 object-cover rounded-xl' />
     
