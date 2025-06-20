@@ -69,10 +69,10 @@ function HomePage() {
             
           <section className='flex flex-col items-center gap-2 text-[10px] text-white/60 mr-2'>
                
-                  <img src={Grid_Coffe_One} alt="" className='h-48 w-36 object-cover rounded-xs' />
+                  <img src={Grid_Coffe_One} alt="" className='h-52 w-36 object-cover rounded-xs' />
 
                 <section className='flex flex-col gap-1'>
-                  <button className='p-2 gap-1 flex items-center w-fit text-white bg-white/10'><img src={Schedule} alt="" className='h-[10px] '/>Reservations</button>
+                  <button className='p-2 gap-1 flex items-center w-fit text-white bg-white/10'>Reservations</button>
                   <span className='text-[9px] text-center'><span>{message}</span></span>
                 </section>  
 
