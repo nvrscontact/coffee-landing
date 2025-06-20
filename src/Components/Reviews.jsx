@@ -1,5 +1,5 @@
 import React from 'react'
-import OneReviews from '../Components/01_Reviews'
+import OneReviews from './One_Reviews'
 
 
 function Reviews() {
