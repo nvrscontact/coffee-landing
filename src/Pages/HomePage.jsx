@@ -34,8 +34,7 @@ function HomePage() {
   return (
       <>
   
-        <span className='text-[9px] flex justify-center my-3 text-white/30 fira-sans-extralight'><span>Currently {message}</span></span>
-      <div className='flex justify-between gap-1 mb-8 pb-4 fira-sans-thin '>
+      <div className='flex justify-between gap-1 my-8 pb-4 fira-sans-thin '>
           <section className='flex flex-col my-2 ml-4'>
 
               <h1 className='text-[24px] text-[#cea65bc7] fira-sans-extralight pb-1'>Rosetti's Coffee</h1>
@@ -67,8 +66,10 @@ function HomePage() {
           </section>
             
           <section className='flex flex-col items-center gap-2 text-[10px] text-white/70 mr-2'>
-               
-                  <img src={Grid_Coffe_One} alt="" className='h-52 w-32 object-cover rounded-xl' />
+
+                <span className='text-[9px] flex justify-cente text-white/50 fira-sans-extralight'><span>Currently {message}</span></span>
+
+                <img src={Grid_Coffe_One} alt="" className='h-52 w-32 object-cover rounded-xl' />
 
                 <section className='flex flex-col gap-1'>
                   <button className='p-[6px] gap-1 flex items-center w-fit text-white bg-white/10 text-[11px] rounded-[6px] '>Reservations</button>
@@ -80,8 +81,8 @@ function HomePage() {
 
 
 
-      <div className='mb-20 mx-5 flex flex-col gap-10'>
-        <section className='flex flex-col fira-sans-extralight my-12'>
+      <div className='mb-20 mx-5 flex flex-col'>
+        <section className='flex flex-col fira-sans-extralight mt-12 mb-8'>
           <h1 className='text-start text-[20px] text-white/50 pb-1'>Our three most sold dishes...</h1>
           <section className='flex items-center gap-2 text-[11px] border-b pb-4 border-white/30 text-white/50'>
             <span className='bg-white/10 p-1 rounded-[6px]'>Savoy</span>
