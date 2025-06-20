@@ -6,23 +6,29 @@ import Languages from '../assets/languages.svg'
 import Sun from '../assets/sun.svg'
 
 function NavBar() {
+
+
   return (
     <>
-    <section className='flex items-center justify-between mx-5 fira-sans-light my-8 pb-4 '>
-      <section className=''>
-      <Link to='/'><img src={Home} alt="" className='h-4' /></Link>
-      </section>
-        <section className='flex justify-center items-center gap-2 text-[12px] text-white/80'>
-            <span className='bg-white/10 p-[6px] '><Link to='/'>Home</Link> </span>
-            <span className='bg-white/10 p-[6px]'><Link to='/menus'>Reservations</Link> </span>
-            <span className='bg-white/10 p-[6px]'><Link to='/menus'>Menus</Link> </span>
-            <span className='bg-white/10 p-[6px]'><Link to='/menus'>Another</Link> </span>
+      
+      <div className='bg-white/10 fira-sans-light my-5 '>
+
+        <section className='mx-5 flex justify-between items-center py-2'>
+          <Link to='/'><img src={Home} alt="" className='h-4' /></Link>
+          <section className='flex justify-center items-center gap-2 text-[12px] text-white/60'>
+              <span className='p-[6px] '><Link to='/'>Reservations</Link> </span>
+              <span className=' p-[6px]'><Link to='/menus'>Menus</Link> </span>
+              <span className=' p-[6px]'><Link to='/menus'>Gallery</Link> </span>
+              <span className=' p-[6px]'><Link to='/menus'>Delivery</Link> </span>
+          </section>
+          <section className='flex gap-3'>
+            <Link to='/'><img src={Languages} alt="" className='h-4' /></Link>
+            <img src={Sun} alt="" className='h-4' />
+          </section>
         </section>
-       <section className='flex gap-3'>
-      <Link to='/'><img src={Languages} alt="" className='h-4' /></Link>
-      <img src={Sun} alt="" className='h-4' />
-      </section>
-    </section>
+
+      </div>
+
     </>
   )
 }

@@ -5,18 +5,22 @@ import paypal_pay from '../assets/paypal_pay.svg'
 import visa_pay from '../assets/visa_pay.svg'
 import mastercard_pay from '../assets/mastercard_pay.svg'
 
+import instagram_icon from '../assets/instagram_icon.svg'
+import twitter_icon from '../assets/twitter_icon.svg'
+import tiktok_icon from '../assets/tiktok_icon.svg'
+
 function NavBar() {
       const date = new Date().getFullYear()
   return (
     <>
     <section className='flex flex-col gap-8 text-[13px] border-t border-white/30 fira-sans-extralight'>
-      <div className='flex flex-col gap-6 ml-5 my-6'>
+      <div className='flex flex-col gap-6 ml-5 mt-6 mb-3'>
 
         <section className='flex'>
             <li className='flex gap-3 items-center'>
-                <a href="https://facebook.com"><img src="/images/instagram.svg" alt="" className='h-5' /></a>
-                <a href="https://facebook.com"><img src="/images/tik-tok.svg" alt="" className='h-4' /></a>
-                <a href="https://facebook.com"><img src="/images/x.svg" alt="" className='h-5' /></a>
+                <a href="https://facebook.com"><img src={instagram_icon} alt="" className='h-5' /></a>
+                <a href="https://facebook.com"><img src={tiktok_icon} alt="" className='h-5' /></a>
+                <a href="https://facebook.com"><img src={twitter_icon} alt="" className='h-5' /></a>
             </li>
         </section>
 
