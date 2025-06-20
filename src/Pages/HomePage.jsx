@@ -82,7 +82,8 @@ function HomePage() {
 
 
       <div className='mb-20 mx-5 flex flex-col'>
-        <section className='flex flex-col fira-sans-extralight mt-12 mb-8'>
+        
+        <section className='flex flex-col fira-sans-extralight mt-12 mb-6'>
           <h1 className='text-start text-[20px] text-white/50 pb-1'>Our three most sold dishes...</h1>
           <section className='flex items-center gap-2 text-[11px] border-b pb-4 border-white/30 text-white/50'>
             <span className='bg-white/10 p-1 rounded-[6px]'>Savoy</span>
@@ -105,7 +106,15 @@ function HomePage() {
             <span className='p-[3px] bg-white/10 text-white/70 rounded-[6px] '>Sweet Taste</span>                      
           </section>
           <p className='text-[9px] max-w-60 text-white/50 pb-4'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique fuga earum asperiores modi, eveniet quas, sed facilis nihil officia repellat est amet facere.</p>
-          <img src={Grid_Coffe_One} alt="" className='h-80' />
+          <section className='w-52'>
+            <img src={Grid_Coffe_One} alt="" className='h-80' />
+              <div className='flex mt-3 text-[13px] gap-2 text-center '>
+              <span className='bg-white/10 text-white/70 p-[6px] rounded-[6px] basis-sm '>Order</span>
+              <span className='bg-white/10 text-white/70 p-[6px] rounded-[6px] basis-sm'>Reserve</span>
+              <span className='bg-white/10 text-white/70 p-[6px] rounded-[6px] basis-sm'>FAQ</span>
+            
+            </div>
+          </section>
         </section>
 
         <section className='flex flex-col items-end mb-12'>
@@ -122,7 +131,15 @@ function HomePage() {
             <span className='p-[3px] bg-white/10 text-white/70 rounded-[6px] '>Sweet Taste</span>                      
           </section>
           <p className='text-[9px] max-w-60 text-white/50 pb-4 text-end'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique fuga earum asperiores modi, eveniet quas, sed facilis nihil officia repellat est</p>
-          <img src={Grid_Coffe_Two} alt="" className='h-80 w-fit ' />
+          <section className='w-52'>
+            <img src={Grid_Coffe_One} alt="" className='h-80' />
+             <div className='flex mt-3 text-[13px] gap-2 text-center '>
+              <span className='bg-white/10 text-white/70 p-[6px] rounded-[6px] basis-sm '>Order</span>
+              <span className='bg-white/10 text-white/70 p-[6px] rounded-[6px] basis-sm'>Reserve</span>
+              <span className='bg-white/10 text-white/70 p-[6px] rounded-[6px] basis-sm'>FAQ</span>
+            
+            </div>
+          </section>
         </section>
 
         <section className=''>
@@ -139,7 +156,15 @@ function HomePage() {
             <span className='p-[3px] bg-white/10 text-white/70 rounded-[6px] '>Sweet Taste</span>                      
           </section>
           <p className='text-[9px] max-w-60 text-white/50 pb-4'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique fuga earum asperiores modi, eveniet quas, sed facilis nihil officia repellat est amet facere.</p>
-          <img src={Grid_Coffe_One} alt="" className='h-80' />
+          <section className='w-52'>
+            <img src={Grid_Coffe_One} alt="" className='h-80' />
+            <div className='flex mt-3 text-[13px] gap-2 text-center [&>*]:basis-sm'>
+              <span className='bg-white/10 text-white/70 p-[6px] rounded-[6px]  '>Order</span>
+              <span className='bg-white/10 text-white/70 p-[6px] rounded-[6px] '>Reserve</span>
+              <span className='bg-white/10 text-white/70 p-[6px] rounded-[6px] '>FAQ</span>
+            
+            </div>
+          </section>
         </section>
       </div>
 
