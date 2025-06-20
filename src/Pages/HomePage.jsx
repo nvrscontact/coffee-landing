@@ -57,7 +57,7 @@ function HomePage() {
                     <span><img src={Wifi} alt="" className='h-4' /></span>
                   </p>
 
-                  <p className='flex flex-col gap-1 text-[10px] text-white/70 my-3'>
+                  <p className='flex flex-col gap-1 text-[10px] text-white/80 my-3'>
                     <span className='bg-white/10 p-[6px] rounded-[6px]'>Monday - Friday (9:00 to 22:00)  </span>
                     <span className='bg-white/10 p-[6px] rounded-[6px]'>Sunday - Saturday (9:00 to 20:00) </span>
                     <span className='bg-white/10 p-[6px] rounded-[6px]'>Good ilmumination </span>
@@ -83,13 +83,13 @@ function HomePage() {
 
 
       <div className='mb-6 mx-3 flex flex-col gap-10'>
-        <section className='flex flex-col fira-sans-extralight'>
-        <h1 className='text-start fira-sans-light text-[18px] animated_white_basic pb-1'>Our three best and most sold dishes</h1>
-        <div className='flex gap-2 items-center text-white/70'>
-          <span className='text-[9px] bg-white/10 p-[4px] rounded-[6px]'>Fast Delivery</span>
-          <span className='text-[9px] bg-white/10 p-[4px] rounded-[6px]'>Fast Delivery</span>
-          <span className='text-[9px] bg-white/10 p-[4px] rounded-[6px]'>Fast Delivery</span>
-        </div>
+        <section className='flex flex-col fira-sans-extralight my-16'>
+          <h1 className='text-start fira-sans-light text-[18px] animated_white_basic pb-1'>Our three most sold dishes</h1>
+          <div className='flex gap-2 items-center text-white/70'>
+            <span className='text-[9px] bg-white/10 p-[4px] rounded-[6px]'>Fast Delivery</span>
+            <span className='text-[9px] bg-white/10 p-[4px] rounded-[6px]'>Fast Delivery</span>
+            <span className='text-[9px] bg-white/10 p-[4px] rounded-[6px]'>Fast Delivery</span>
+          </div>
         </section>
 
         <section className=''>
@@ -110,7 +110,7 @@ function HomePage() {
         </section>
 
         <section className='flex flex-col items-end'>
-          <h1 className='text-[#614513c7] pb-1'>The Plate Imaginatel</h1>
+          <h1 className='text-[#cea65bc7]'>The Plate Imaginatel</h1>
           <section className='flex items-center gap-2 text-[9px] mb-1 '>
               <section className='flex'>
                   <img src={Star} alt="" className='h-4' />
@@ -127,7 +127,7 @@ function HomePage() {
         </section>
 
         <section className=''>
-          <h1 className='text-[#cea65bc7] pb-1'>The Plate Imaginatel</h1>
+          <h1 className='text-[#cea65bc7]'>The Plate Imaginatel</h1>
           <section className='flex items-center gap-2 text-[9px] mb-1 '>
               <section className='flex'>
                   <img src={Star} alt="" className='h-4' />
@@ -139,13 +139,13 @@ function HomePage() {
             <span className='p-[3px] bg-white/10 text-white/70 rounded-[6px] '>+13 reviews</span>
             <span className='p-[3px] bg-white/10 text-white/70 rounded-[6px] '>Sweet Taste</span>                      
           </section>
-          <p className='text-[9px] max-w-60 text-white/50 pb-4'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique fuga earum asperiores modi, eveniet quas, sed facilis nihil officia repellat est amet</p>
+          <p className='text-[9px] max-w-60 text-white/50 pb-4'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique fuga earum asperiores modi, eveniet quas, sed facilis nihil officia repellat est amet facere.</p>
           <img src={Grid_Coffe_One} alt="" className='h-80' />
         </section>
       </div>
 
 
-      <div className='mx-5 my-13'>
+      <div className='mx-5 my-16'>
         <h1 className='text-white/50 text-[20px] mb-6 fira-sans-extralight'>What some people say...</h1>
         <section className='flex flex-col gap-4'>
           <Reviews names='Katterin R.' dates='December 2024' paragraph='Excellent food.' />

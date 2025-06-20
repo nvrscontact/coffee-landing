@@ -19,7 +19,7 @@ function NavBar() {
         <section className='flex'>
             <li className='flex gap-3 items-center'>
                 <a href="https://facebook.com"><img src={instagram_icon} alt="" className='h-5' /></a>
-                <a href="https://facebook.com"><img src={tiktok_icon} alt="" className='h-5' /></a>
+                <a href="https://facebook.com"><img src={tiktok_icon} alt="" className='h-[18px] ' /></a>
                 <a href="https://facebook.com"><img src={twitter_icon} alt="" className='h-5' /></a>
             </li>
         </section>
