@@ -34,8 +34,8 @@ function HomePage() {
   return (
       <>
   
-      <div className='flex justify-between gap-1 my-8 pb-4 fira-sans-thin '>
-
+        <span className='text-[9px] flex justify-center my-3 text-white/30 fira-sans-extralight'><span>Currently {message}</span></span>
+      <div className='flex justify-between gap-1 mb-8 pb-4 fira-sans-thin '>
           <section className='flex flex-col my-2 ml-4'>
 
               <h1 className='text-[24px] text-[#cea65bc7] fira-sans-extralight pb-1'>Rosetti's Coffee</h1>
@@ -72,7 +72,6 @@ function HomePage() {
 
                 <section className='flex flex-col gap-1'>
                   <button className='p-[6px] gap-1 flex items-center w-fit text-white bg-white/10 text-[11px] rounded-[6px] '>Reservations</button>
-                  <span className='text-[9px] text-center'><span>{message}</span></span>
                 </section>  
 
           </section>
@@ -81,14 +80,14 @@ function HomePage() {
 
 
 
-      <div className='mb-6 mx-3 flex flex-col gap-10'>
+      <div className='mb-20 mx-5 flex flex-col gap-10'>
         <section className='flex flex-col fira-sans-extralight my-12'>
-          <h1 className='text-start fira-sans-light text-[24px] animated_white_basic pb-1'>Our three most sold dishes</h1>
-          <div className='flex gap-2 items-center text-white/70 text-[10px]'>
-            <span className=' bg-white/10 p-[4px] rounded-[6px]'>Fast Delivery</span>
-            <span className=' bg-white/10 p-[4px] rounded-[6px]'>Fast Delivery</span>
-            <span className=' bg-white/10 p-[4px] rounded-[6px]'>Fast Delivery</span>
-          </div>
+          <h1 className='text-start text-[20px] text-white/50 pb-1'>Our three most sold dishes...</h1>
+          <section className='flex items-center gap-2 text-[11px] border-b pb-4 border-white/30 text-white/50'>
+            <span className='bg-white/10 p-1 rounded-[6px]'>Savoy</span>
+            <span className='bg-white/10 p-1 rounded-[6px]'>Free delivery from 25 €</span>
+            <span className='bg-white/10 p-1 rounded-[6px]'>Savoy</span>
+          </section>
         </section>
 
         <section className='mb-12'>
@@ -144,9 +143,9 @@ function HomePage() {
       </div>
 
 
-      <div className='mx-5 my-16'>
-        <h1 className='text-white/50 text-[20px] mb-6 fira-sans-extralight'>What some people say...</h1>
-        <section className='flex flex-col gap-4'>
+      <div className='mx-5'>
+        <h1 className='pb-4 text-white/50 text-[20px] fira-sans-extralight border-b border-white/30'>What some people say...</h1>
+        <section className='flex flex-col gap-4 my-8'>
           <Reviews names='Katterin R.' dates='December 2024' paragraph='Excellent food.' />
           <Reviews names='Mascherandossk' dates='Summer of 2025' paragraph='Excellent food and sprites, during summer is great.' />
           <Reviews names='Jennifer' dates='April 2023' paragraph='Its unique.' />
