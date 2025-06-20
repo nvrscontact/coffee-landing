@@ -58,9 +58,9 @@ function HomePage() {
                   </p>
 
                   <p className='flex flex-col gap-1 text-[10px] text-white/60 my-3'>
-                    <span className='bg-white/10 p-1'>Monday - Friday (9:00 to 22:00)  </span>
-                    <span className='bg-white/10 p-1'>Sunday - Saturday (9:00 to 20:00) </span>
-                    <span className='bg-white/10 p-1'>Good ilmumination </span>
+                    <span className='bg-white/10 p-[6px] rounded-[6px]'>Monday - Friday (9:00 to 22:00)  </span>
+                    <span className='bg-white/10 p-[6px] rounded-[6px]'>Sunday - Saturday (9:00 to 20:00) </span>
+                    <span className='bg-white/10 p-[6px] rounded-[6px]'>Good ilmumination </span>
                   </p>
                 </section>
               </div>
@@ -69,10 +69,10 @@ function HomePage() {
             
           <section className='flex flex-col items-center gap-2 text-[10px] text-white/60 mr-2'>
                
-                  <img src={Grid_Coffe_One} alt="" className='h-52 w-36 object-cover rounded-xs' />
+                  <img src={Grid_Coffe_One} alt="" className='h-52 w-32 object-cover rounded-xs' />
 
                 <section className='flex flex-col gap-1'>
-                  <button className='p-2 gap-1 flex items-center w-fit text-white bg-white/10'>Reservations</button>
+                  <button className='p-2 gap-1 flex items-center w-fit text-white bg-white/10 text-[12px] rounded-[6px] '>Reservations</button>
                   <span className='text-[9px] text-center'><span>{message}</span></span>
                 </section>  
 
@@ -83,7 +83,14 @@ function HomePage() {
 
 
       <div className='mb-6 mx-3 flex flex-col gap-10'>
-        <h1 className='text-center'>Our three best and most <br />sold dishes</h1>
+        <section className='flex flex-col fira-sans-extralight'>
+        <h1 className='text-start fira-sans-regular text-[18px] animated_white_basic pb-1'>Our three best and most sold dishes</h1>
+        <div className='flex gap-2 items-center'>
+          <span className='text-[9px] text-white/30 bg-white/10 p-[4px] rounded-[6px]'>Fast Delivery</span>
+          <span className='text-[9px] text-white/30 bg-white/10 p-[4px] rounded-[6px]'>Fast Delivery</span>
+          <span className='text-[9px] text-white/30 bg-white/10 p-[4px] rounded-[6px]'>Fast Delivery</span>
+        </div>
+        </section>
 
         <section className=''>
           <h1 className='text-[#cea65bc7]'>The Plate Imaginatel</h1>

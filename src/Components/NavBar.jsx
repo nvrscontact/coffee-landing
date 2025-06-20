@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import Home from '../assets/home.svg'
 import Languages from '../assets/languages.svg'
 import Sun from '../assets/sun.svg'
+import Hamburger from '../assets/hamburger.svg'
 
 import React, {useRef} from 'react'
 
@@ -26,7 +27,7 @@ function NavBar() {
       <div className='bg-white/10 fira-sans-light my-3 '>
 
         <section className='mx-5 flex justify-between items-center py-2 relative'>
-          <button onClick={toggleMenu}>☰</button>
+          <button onClick={toggleMenu}><img src={Hamburger} alt="" className='h-5' /></button>
           <div ref={menuRef} style={{display: 'none', position: 'absolute', top: '30px' }}>
             <ul className=''>
               <li className='flex flex-col bg-white text-black text-[9px] '>

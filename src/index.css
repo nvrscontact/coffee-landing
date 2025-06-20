@@ -29,11 +29,16 @@
   font-weight: 500;
   font-style: normal;
 }
-
-.colrs{
-  color: #ffffff4d
+ 
+@keyframes moveGradient {
+    0% { background-position: 200% 50%; }
+    100% { background-position: 0% 50%; }
 }
-
-.colrsd{
-  color: red;
+.animated_white_basic {
+    background: linear-gradient(30deg, #525252,#525252, #525252, #525252, #FFF, #FFF, #525252, #525252, #525252,#525252);
+    background-size: 200% 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: moveGradient 5s linear infinite;
 }
