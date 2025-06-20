@@ -38,11 +38,10 @@ function HomePage() {
 
           <section className='flex flex-col my-2 ml-4'>
 
-              <h1 className='text-[24px] text-[#cea65bc7] fira-sans-extralight'>Rosetti's Coffee</h1>
+              <h1 className='text-[24px] text-[#cea65bc7] fira-sans-extralight pb-1'>Rosetti's Coffee</h1>
               
-              <div className='w-40 flex flex-col gap-2'>
-
-                <div className='flex flex-col'>
+              <div className='w-40 flex flex-col'>
+                <div className='flex flex-col pb-2'>
                   <p className='text-[11px] text-white/60 '>
                     <span className='flex gap-1 items-center fira-sans-extralight '>Alcoy, Alicante<img src={Location} alt="" className='h-3' /></span>
                     <span className='fira-sans-extralight text-[10px] '> Calle Na Saurina de Entenza 60.</span>
@@ -50,14 +49,14 @@ function HomePage() {
                 </div>
 
                 <section>
-                  <p className='flex gap-2 text-[12px] text-white/50 border-t border-white/20 pt-3'>
+                  <p className='flex gap-2 text-[12px] text-white/50 border-t border-white/20 py-3'>
                     <span><img src={Wine} alt="" className='h-4' /></span>
                     <span><img src={Coffe} alt="" className='h-4' /></span>
                     <span><img src={Spoon} alt="" className='h-4' /></span>
                     <span><img src={Wifi} alt="" className='h-4' /></span>
                   </p>
 
-                  <p className='flex flex-col gap-1 text-[10px] text-white/80 my-3'>
+                  <p className='flex flex-col gap-1 text-[10px] text-white/90'>
                     <span className='bg-white/10 p-[6px] rounded-[6px]'>Monday - Friday (9:00 to 22:00)  </span>
                     <span className='bg-white/10 p-[6px] rounded-[6px]'>Sunday - Saturday (9:00 to 20:00) </span>
                     <span className='bg-white/10 p-[6px] rounded-[6px]'>Good ilmumination </span>
