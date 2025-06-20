@@ -31,19 +31,19 @@ function NavBar() {
           
           <div ref={menuRef} style={{display: 'none', position: 'absolute', top: '35px', left: '5px' }}>
             <ul className=''>
-              <li className='flex flex-col text-white backdrop-blur-md bg-white/10 text-[10px] p-1 '>
-              <span className='p-[6px]' onClick={closeMenu}><Link to='/'>Home</Link> </span>
+              <li className='flex flex-col text-white backdrop-blur-md bg-white/10 text-[11px] p-1 '>
               <span className=' p-[6px]' onClick={closeMenu}><Link to='/menus'>Reservations</Link> </span>
               <span className=' p-[6px]' onClick={closeMenu}><Link to='/menus'>Menus & Schedule</Link> </span>
               <span className=' p-[6px]' onClick={closeMenu}><Link to='/menus'>Gallery</Link> </span>
+              <span className='p-[6px]' onClick={closeMenu}><Link to='/'>Home</Link> </span>
               </li>
             </ul>
           </div>
         
-          <section className='flex gap-3 items-center'>
-           <Link to='/'><img src={Home} alt="" className='h-[18px]' /></Link>
-            <Link to='/'><img src={Languages} alt="" className='h-[18px]' /></Link>
-            <img src={Sun} alt="" className='h-[18px] ' />
+          <section className='flex gap-4 items-center'>
+           <Link to='/'><img src={Home} alt="" className='h-4' /></Link>
+            <Link to='/'><img src={Languages} alt="" className='h-4' /></Link>
+            <img src={Sun} alt="" className='h-4 ' />
           </section>
         </section>
 

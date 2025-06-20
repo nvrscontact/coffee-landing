@@ -83,16 +83,16 @@ function HomePage() {
 
 
       <div className='mb-6 mx-3 flex flex-col gap-10'>
-        <section className='flex flex-col fira-sans-extralight my-16'>
-          <h1 className='text-start fira-sans-light text-[18px] animated_white_basic pb-1'>Our three most sold dishes</h1>
-          <div className='flex gap-2 items-center text-white/70'>
-            <span className='text-[9px] bg-white/10 p-[4px] rounded-[6px]'>Fast Delivery</span>
-            <span className='text-[9px] bg-white/10 p-[4px] rounded-[6px]'>Fast Delivery</span>
-            <span className='text-[9px] bg-white/10 p-[4px] rounded-[6px]'>Fast Delivery</span>
+        <section className='flex flex-col fira-sans-extralight my-12'>
+          <h1 className='text-start fira-sans-light text-[24px] animated_white_basic pb-1'>Our three most sold dishes</h1>
+          <div className='flex gap-2 items-center text-white/70 text-[10px]'>
+            <span className=' bg-white/10 p-[4px] rounded-[6px]'>Fast Delivery</span>
+            <span className=' bg-white/10 p-[4px] rounded-[6px]'>Fast Delivery</span>
+            <span className=' bg-white/10 p-[4px] rounded-[6px]'>Fast Delivery</span>
           </div>
         </section>
 
-        <section className=''>
+        <section className='mb-12'>
           <h1 className='text-[#cea65bc7]'>The Plate Imaginatel</h1>
           <section className='flex items-center gap-2 text-[9px] mb-1 '>
               <section className='flex'>
@@ -109,7 +109,7 @@ function HomePage() {
           <img src={Grid_Coffe_One} alt="" className='h-80' />
         </section>
 
-        <section className='flex flex-col items-end'>
+        <section className='flex flex-col items-end mb-12'>
           <h1 className='text-[#cea65bc7]'>The Plate Imaginatel</h1>
           <section className='flex items-center gap-2 text-[9px] mb-1 '>
               <section className='flex'>

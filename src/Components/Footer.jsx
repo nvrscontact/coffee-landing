@@ -32,7 +32,7 @@ function NavBar() {
             <a className='hover-white' href='https://www.apple.com'>Privacy & Cookies</a>
         </section>
         
-        <span className='flex flex-col text-white/30  text-[12px] '>Ruseau's Coffe © {date}
+        <span className='flex flex-col text-white/30  text-[12px] '>Rosetti's Coffe © {date}
           <span className='colrs'>All rights reserved.</span>
         </span>
 
