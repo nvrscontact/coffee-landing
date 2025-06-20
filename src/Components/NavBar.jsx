@@ -20,18 +20,6 @@ function NavBar() {
     menuRef.current.style.display = 'none';
   };
 
-  const timezone = new Date();
-  const hora = timezone.getHours()
-  
-  let message;
-
-  if (hora >= 7 && hora <= 23){
-    message = `Openning `;
-  }else{
-    message = `Now Closed`;
-  }
-  console.log(message)
-
 
   return (
     <>
@@ -44,10 +32,11 @@ function NavBar() {
           <div ref={menuRef} style={{display: 'none', position: 'absolute', top: '35px', left: '5px' }}>
             <ul className=''>
               <li className='flex flex-col text-white backdrop-blur-md bg-white/10 text-[11px] p-1 '>
-              <span className=' p-[6px]' onClick={closeMenu}><Link to='/menus'>Reservations</Link> </span>
-              <span className=' p-[6px]' onClick={closeMenu}><Link to='/menus'>Menus & Schedule</Link> </span>
-              <span className=' p-[6px]' onClick={closeMenu}><Link to='/menus'>Gallery</Link> </span>
-              <span className='p-[6px] border w-full' onClick={closeMenu}><Link to='/'>Home</Link> </span>
+              <span className='p-[6px]' onClick={closeMenu}><Link to='/reservations'>Reservations</Link> </span>
+              <span className='p-[6px]' onClick={closeMenu}><Link to='/menus'>Menus & Schedule</Link> </span>
+              <span className='p-[6px]' onClick={closeMenu}><Link to='/gallery'>Gallery</Link> </span>
+              <span className='p-[6px]' onClick={closeMenu}><Link to='/faqs'>Faqs</Link> </span>
+              <span className='p-[6px]' onClick={closeMenu}><Link to='/'>Home</Link> </span>
               </li>
             </ul>
           </div>

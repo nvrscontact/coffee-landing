@@ -1,35 +1,18 @@
 import React from 'react'
-
-import Star from '../assets/star.svg'
-import Star_Out from '../assets/star-out.svg'
+import OneReviews from '../Components/01_Reviews'
 
 
-function Reviews({names,dates,paragraph,stars}) {
+function Reviews() {
   return (
-    <>
-    <div className='border border-white/30 p-1 w-fit max-w-80 overflow-hidden break-words rounded-xl text-pretty flex flex-col fira-sans-extralight'>
-        
-        <section className='flex flex-col p-[6px] '>
-
-          <section className='flex gap-2 items-center'>
-            <h1 className='text-[12px] '>{names} </h1>
-              
-              <section className='flex'>
-              <img src={Star} alt="" className='h-4' />
-              <img src={Star} alt="" className='h-4' />
-              <img src={Star} alt="" className='h-4' />
-              <img src={Star_Out} alt="" className='h-4' />
-              <img src={Star_Out} alt="" className='h-4' />
-              </section>
-          
+   <div className='mx-5'>
+          <h1 className='pb-4 text-white/50 text-[20px] fira-sans-extralight border-b border-white/30'>What some people say...</h1>
+          <section className='flex flex-col gap-4 my-8'>
+            <OneReviews names='Katterin R.' dates='December 2024' paragraph='Excellent food.' />
+            <OneReviews names='Mascherandossk' dates='Summer of 2025' paragraph='Excellent food and sprites, during summer is great.' />
+            <OneReviews names='Jennifer' dates='April 2023' paragraph='Its unique.' />
           </section>
-          <span className=' text-white/40 text-[10px] '>{dates}</span>
-       </section>
-
-      <span className='text-[11px] bg-white/10 p-2 rounded-[8px] '>{paragraph}</span>
     </div>
-    </>
   )
 }
 
-export default Reviews 
+export default Reviews
