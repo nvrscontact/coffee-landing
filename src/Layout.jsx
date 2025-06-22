@@ -7,11 +7,7 @@ function Layout() {
   return (
     <>
       <NavBar/>  
-    <section className=''>
-      <div>
         <Outlet/>
-      </div>
-    </section>
       <Footer/>  
     </>
   )

@@ -1,4 +1,5 @@
-import React from 'react'
+import {Link} from 'react-router-dom'
+
 import apple_pay from '../assets/apple_pay.svg'
 import american_express_pay from '../assets/american_express_pay.svg'
 import paypal_pay from '../assets/paypal_pay.svg'
@@ -26,10 +27,10 @@ function NavBar() {
 
         <section className='flex flex-col gap-3 text-white/50'>
             <a className=''>Contact</a>
-            <a className='hover-white' href={'/about_us'}>About Us</a>
-            <a className='hover-white' href={'/work_with_us'}>Work with us</a>
-            <a className='hover-white' href={'/help_privacy'}>Help & Support</a>
-            <a className='hover-white' href={'/help_privacy'}>Privacy & Cookies</a>
+            <a className='hover-white'><Link to='/about_us'>About Us</Link></a>
+            <a className='hover-white'><Link to='/work_with_us'>Work with Us</Link></a>
+            <a className='hover-white'><Link to='/help_privacy'>Help & Support</Link></a>
+            <a className='hover-white'><Link to='/help_privacy'>Privacy & Cookies</Link></a>
         </section>
         
         <span className='flex flex-col text-white/30  text-[12px] '>Rosetti's Coffe © {date}
