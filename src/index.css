@@ -34,13 +34,13 @@
     0% { background-position: 200% 50%; }
     100% { background-position: 0% 50%; }
 }
-.animated_white_basic {
-    background: linear-gradient(30deg, #525252,#525252, #525252, #525252, #FFF, #FFF, #525252, #525252, #525252,#525252);
+.animated_white {
+    background: linear-gradient(30deg, #868686,#868686, #868686, #868686, #FFF, #FFF, #868686, #868686, #868686,#868686);
     background-size: 200% 100%;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    animation: moveGradient 5s linear infinite;
+    animation: moveGradient 6s linear infinite;
 }
 
 

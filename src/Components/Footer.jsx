@@ -26,11 +26,11 @@ function NavBar() {
         </section>
 
         <section className='flex flex-col gap-3 text-white/50'>
-            <a className=''>Contact</a>
-            <a className='hover-white'><Link to='/about_us'>About Us</Link></a>
-            <a className='hover-white'><Link to='/work_with_us'>Work with Us</Link></a>
-            <a className='hover-white'><Link to='/help_privacy'>Help & Support</Link></a>
-            <a className='hover-white'><Link to='/help_privacy'>Privacy & Cookies</Link></a>
+            <a className='hover-white'>Contact</a>
+            <Link to='/about_us ' className='hover-white'>About Us</Link>
+            <Link to='/work_with_us' className='hover-white'>Work with Us</Link>
+            <Link to='/help_privacy' className='hover-white'>Help & Support</Link>
+            <Link to='/help_privacy' className='hover-white'>Privacy & Cookies</Link>
         </section>
         
         <span className='flex flex-col text-white/30  text-[12px] '>Rosetti's Coffe © {date}

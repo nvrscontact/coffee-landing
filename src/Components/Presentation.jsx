@@ -5,6 +5,8 @@ import Coffe from '../assets/coffe.svg'
 import Wifi from '../assets/wifi.svg'
 import Wine from '../assets/wine.svg'
 import Spoon from '../assets/spoon.svg'
+import {Link} from 'react-router-dom'
+
 
 function Presentation() {
 
@@ -54,13 +56,11 @@ function Presentation() {
                     <span className='text-white/50'><span>Currently {message}</span></span>
     
                     <img src={Grid_Coffe_One} alt="" className='h-52 w-32 object-cover rounded-xl' />
-    
 
                     <button className='py-[7px] px-[2px] rounded-[8px] border border-white/20' >
-                    <a href={'/reservations'} className='bg-white/10 py-[7px] px-[8px] rounded-[6px]'>Make Reservation</a>
+                    <Link to='/reservations' className='bg-white/10 py-[7px] px-[8px] rounded-[6px]'>Make Reservation</Link>
                     </button>
     
-          
               </section>
     
           </div>  
