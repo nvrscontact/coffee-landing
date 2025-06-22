@@ -2,7 +2,7 @@ import React from 'react'
 
 function Menus() {
   return (
-    <div>Menus</div>
+    <div>Menus & Faqs</div>
   )
 }
 

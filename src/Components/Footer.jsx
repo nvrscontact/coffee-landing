@@ -24,12 +24,12 @@ function NavBar() {
             </li>
         </section>
 
-        <section className='flex flex-col gap-3 text-white/50 '>
-            <a className='hover-white' href='https://www.apple.com'>Contact</a>
-            <a className='hover-white' href='https://www.apple.com'>About Us</a>
-            <a className='hover-white' href='https://www.apple.com'>Work with us</a>
-            <a className='hover-white' href='https://www.apple.com'>Help & Support</a>
-            <a className='hover-white' href='https://www.apple.com'>Privacy & Cookies</a>
+        <section className='flex flex-col gap-3 text-white/50'>
+            <a className=''>Contact</a>
+            <a className='hover-white' href={'/about_us'}>About Us</a>
+            <a className='hover-white' href={'/work_with_us'}>Work with us</a>
+            <a className='hover-white' href={'/help_privacy'}>Help & Support</a>
+            <a className='hover-white' href={'/help_privacy'}>Privacy & Cookies</a>
         </section>
         
         <span className='flex flex-col text-white/30  text-[12px] '>Rosetti's Coffe © {date}

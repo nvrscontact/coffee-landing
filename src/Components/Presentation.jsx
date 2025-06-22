@@ -56,10 +56,11 @@ function Presentation() {
                     <img src={Grid_Coffe_One} alt="" className='h-52 w-32 object-cover rounded-xl' />
     
 
-                    <button className='py-[7px] px-[2px] rounded-[8px] border border-white/20'>
-                    <span className='bg-white/10 py-[7px] px-[8px] rounded-[6px]'>Make Reservation</span>
+                    <button className='py-[7px] px-[2px] rounded-[8px] border border-white/20' >
+                    <a href={'/reservations'} className='bg-white/10 py-[7px] px-[8px] rounded-[6px]'>Make Reservation</a>
                     </button>
     
+          
               </section>
     
           </div>  

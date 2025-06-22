@@ -30,12 +30,12 @@ function NavBar() {
           <button onClick={toggleMenu}><img src={Hamburger} alt="" className='h-6' /></button>
           
           <div ref={menuRef} style={{display: 'none', position: 'absolute', top: '35px', left: '5px' }}>
-            <ul className=''>
-              <li className='flex flex-col text-white backdrop-blur-md bg-white/10 text-[11px] p-1 rounded-xl '>
+            <ul className='border border-white/30 rounded-[16px] '>
+              <li className='flex flex-col text-white/60 backdrop-blur-md bg-white/10 text-[11px] p-2 m-1 rounded-xl '>
               <span className='p-[6px]' onClick={closeMenu}><Link to='/reservations'>Reservations</Link> </span>
-              <span className='p-[6px]' onClick={closeMenu}><Link to='/menus'>Menus & Schedule</Link> </span>
+              <span className='p-[6px]' onClick={closeMenu}><Link to='/menus'>Menus & Faqs</Link> </span>
               <span className='p-[6px]' onClick={closeMenu}><Link to='/gallery'>Gallery</Link> </span>
-              <span className='p-[6px]' onClick={closeMenu}><Link to='/faqs'>Faqs</Link> </span>
+              <span className='p-[6px]' onClick={closeMenu}><Link to='/help_privacy'>Help & Privacy</Link> </span>
               <span className='p-[6px]' onClick={closeMenu}><Link to='/'>Home</Link> </span>
               </li>
             </ul>
