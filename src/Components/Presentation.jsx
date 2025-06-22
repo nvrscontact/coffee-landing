@@ -22,10 +22,10 @@ function Presentation() {
 
   return (
     <>
-    <div className='flex justify-between gap-1 my-8 pb-4 fira-sans-thin '>
+    <div className='flex justify-between gap-1 mt-8 fira-sans-thin '>
               <section className='flex flex-col my-2 ml-4'>
     
-                  <h1 className='text-[24px] text-[#cea65bc7] fira-sans-extralight pb-1'>Rosetti's Coffee</h1>
+                  <h1 className='text-[24px] text-[#cea65bc7] fira-sans-extralight'>Rosetti's Coffee</h1>
                   
                   <div className='w-40 flex flex-col'>
                     <div className='flex flex-col pb-2'>
@@ -53,15 +53,13 @@ function Presentation() {
     
               </section>
                 
-              <section className='flex flex-col items-center gap-2 text-[10px] text-white/70 mr-2'>
+              <section className='flex flex-col items-center gap-2 text-[10px] text-white/70 mr-4 fira-sans-light'>
     
-                    <span className='text-[10px] flex justify-cente text-white/50 fira-sans-extralight'><span>Currently {message}</span></span>
+                    <span className='text-white/50'><span>Currently {message}</span></span>
     
                     <img src={Grid_Coffe_One} alt="" className='h-52 w-32 object-cover rounded-xl' />
     
-                    <section className='flex flex-col gap-1'>
-                      <button className='p-[6px] gap-1 flex items-center w-fit text-white bg-white/10 text-[11px] rounded-[6px] '>Reservations</button>
-                    </section>  
+                    <button className='py-[6px] px-[8px] bg-white/10 rounded-[6px] '>Make Reservation</button>
     
               </section>
     

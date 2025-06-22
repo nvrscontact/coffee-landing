@@ -8,10 +8,10 @@ function TopPlates() {
     <>
       <div className='mb-20 mx-5 flex flex-col'>
               
-              <section className='flex flex-col fira-sans-extralight mt-12 mb-6'>
-                <h1 className='text-start text-[20px] text-white/50 pb-1'>Our three most sold dishes...</h1>
-                <section className='flex items-center gap-2 text-[11px] border-b pb-4 border-white/30 text-white/50'>
-                  <span className='bg-white/10 p-1 rounded-[6px]'>Savoy</span>
+              <section className='flex flex-col fira-sans-extralight mt-10 mb-6'>
+                <h1 className='text-start text-[20px] text-white/50 pb-1 '>Our three most sold dishes...</h1>
+                <section className='flex items-center gap-2 text-[10px] border-b pb-3 border-white/30 text-white/50'>
+                  <span className='bg-white/10 p-1 rounded-[6px]'>20% Dto.</span>
                   <span className='bg-white/10 p-1 rounded-[6px]'>Free delivery from 25 €</span>
                   <span className='bg-white/10 p-1 rounded-[6px]'>Savoy</span>
                 </section>
