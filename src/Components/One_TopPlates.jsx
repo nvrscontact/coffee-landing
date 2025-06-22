@@ -18,13 +18,13 @@ function One_TopPlates() {
                 <span className='p-[3px] bg-white/10 text-white/70 rounded-[6px] '>+13 reviews</span>
                 <span className='p-[3px] bg-white/10 text-white/70 rounded-[6px] '>Sweet Taste</span>                      
             </section>
-            <p className='text-[9px] max-w-52 text-white/50 pb-4'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique fuga earum asperiores modi, eveniet quas, sed facilis nihil officia repellat est amet facere.</p>
+            <p className='text-[9px] max-w-52 text-white/50 pb-2'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique fuga earum asperiores modi, eveniet quas, sed facilis nihil officia repellat est amet facere.</p>
             <section className='w-52'>
-                <img src={Grid_Coffe_One} alt="" className='h-80' />
-                <div className='flex mt-3 text-[12px] gap-2 text-center '>
-                    <span className='second-btn'>Order</span>
+                <img src={Grid_Coffe_One} alt="" className='h-80 mb-2 rounded-lg' />
+                <div className='flex text-[12px] gap-1 text-center '>
+                <span className='second-btn'>Order</span>
                 <span className='second-btn'>Reserve</span>
-                <span className='second-btn'>Faq</span>
+                <span className='second-btn'>Faqs</span>
                 
                 </div>
             </section>
