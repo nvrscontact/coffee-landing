@@ -8,17 +8,13 @@ import Spoon from '../assets/spoon.svg'
 
 function Presentation() {
 
-   const timezone = new Date();
+  /* Currently Oppening Timezone */
+  const timezone = new Date();
   const hora = timezone.getHours()
-  
   let message;
+  if (hora >= 7 && hora <= 23){message = `Openning `}
+  else{message = `Closed`;}
 
-  if (hora >= 7 && hora <= 23){
-    message = `Openning `;
-  }else{
-    message = `Now Closed`;
-  }
-  console.log(message)
 
   return (
     <>
@@ -59,7 +55,10 @@ function Presentation() {
     
                     <img src={Grid_Coffe_One} alt="" className='h-52 w-32 object-cover rounded-xl' />
     
-                    <button className='py-[6px] px-[8px] bg-white/10 rounded-[6px] '>Make Reservation</button>
+
+                    <button className='py-[7px] px-[2px] rounded-[8px] border border-white/20'>
+                    <span className='bg-white/10 py-[7px] px-[8px] rounded-[6px]'>Make Reservation</span>
+                    </button>
     
               </section>
     
