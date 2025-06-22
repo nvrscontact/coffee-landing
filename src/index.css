@@ -42,3 +42,17 @@
     -webkit-background-clip: text;
     animation: moveGradient 5s linear infinite;
 }
+
+
+@layer componets {
+  .first-btn{
+    @apply bg-white/10 p-1 rounded-[6px] flex gap-1;
+  }
+  .second-btn{
+    @apply bg-white/10 text-white/70 p-[6px] rounded-[6px] basis-sm
+  }
+}
+
+@layer utilities{
+
+}

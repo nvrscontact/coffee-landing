@@ -14,12 +14,12 @@ function Reviews({names,dates,paragraph,stars}) {
           <section className='flex gap-2 items-center'>
             <h1 className='text-[12px] '>{names} </h1>
               
-              <section className='flex'>
-              <img src={Star} alt="" className='h-4' />
-              <img src={Star} alt="" className='h-4' />
-              <img src={Star} alt="" className='h-4' />
-              <img src={Star_Out} alt="" className='h-4' />
-              <img src={Star_Out} alt="" className='h-4' />
+              <section className='flex [&>*]:h-4'>
+              <img src={Star} alt="" className='' />
+              <img src={Star} alt="" className='' />
+              <img src={Star} alt="" className='' />
+              <img src={Star_Out} alt="" className='' />
+              <img src={Star_Out} alt="" className='' />
               </section>
           
           </section>

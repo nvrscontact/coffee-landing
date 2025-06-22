@@ -25,7 +25,7 @@ function Presentation() {
     <div className='flex justify-between gap-1 mt-8 fira-sans-thin '>
               <section className='flex flex-col my-2 ml-4'>
     
-                  <h1 className='text-[24px] text-[#cea65bc7] fira-sans-extralight'>Rosetti's Coffee</h1>
+                  <h1 className='text-[24px] text-[#9e763b] fira-sans-extralight'>Rosetti's Coffee</h1>
                   
                   <div className='w-40 flex flex-col'>
                     <div className='flex flex-col pb-2'>
