@@ -21,13 +21,13 @@ function TopPlates() {
                 </section>
               </section>
       
+          <section className='flex flex-col items-center gap-32'>
               <One_TopPlates/>
       
-              <section className='flex col justify-end mb-12'>
-                  <One_TopPlates/>
-              </section>
+              <One_TopPlates/>
       
               <One_TopPlates/>
+          </section>
               
        </div>
     </>
