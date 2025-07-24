@@ -8,6 +8,7 @@ function HomePage() {
       <>
 
       <Presentation/>
+      
       <TopPlates/>
       <Reviews/>
       

@@ -14,14 +14,14 @@ function NavBar() {
       const date = new Date().getFullYear()
   return (
     <>
-    <section className='flex flex-col gap-8 text-[13px] border-t border-white/30 fira-sans-extralight'>
+    <section className='flex flex-col text-[12px] border-t border-[#3b2808] fira-sans-extralight'>
       <div className='flex flex-col gap-6 ml-5 mt-6 mb-3'>
 
         <section className='flex'>
             <li className='flex gap-3 items-center'>
-                <a href="https://facebook.com"><img src={instagram_icon} alt="" className='h-5' /></a>
-                <a href="https://facebook.com"><img src={tiktok_icon} alt="" className='h-[18px] ' /></a>
-                <a href="https://facebook.com"><img src={twitter_icon} alt="" className='h-5' /></a>
+                <a href="https://facebook.com"><img src={instagram_icon} alt="" className='h-4' /></a>
+                <a href="https://facebook.com"><img src={tiktok_icon} alt="" className='h-4 ' /></a>
+                <a href="https://facebook.com"><img src={twitter_icon} alt="" className='h-4' /></a>
             </li>
         </section>
 
@@ -33,9 +33,6 @@ function NavBar() {
             <Link to='/help_privacy' className='hover-white'>Privacy & Cookies</Link>
         </section>
         
-        <span className='flex flex-col text-white/30  text-[12px] '>Rosetti's Coffe © {date}
-          <span className='colrs'>All rights reserved.</span>
-        </span>
 
         <section className='flex gap-3'>
           <img src={apple_pay} alt="" className='h-7' />
@@ -43,9 +40,13 @@ function NavBar() {
           <img src={paypal_pay} alt="" className='h-7' />
           <img src={mastercard_pay} alt="" className='h-7' />
           <img src={visa_pay} alt="" className='h-7' />
-       
         </section>
       
+        <span className='flex flex-col text-white/30  text-[12px] '>Rosetti's Coffe © {date}
+          <span className='colrs'>All rights reserved.</span>
+        </span>
+
+
       </div>
     </section>
     </>

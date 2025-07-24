@@ -18,18 +18,16 @@ function App() {
     <section className='bg-black'>
     <Router>
       <Routes>
-        <Route path='/' element={<Layout />}>
-           <Route index element={<HomePage />} />
-           <Route path='/' element={<HomePage />} />
-           <Route path='/reservations' element={<Reservations />} />
-           <Route path='/menus' element={<Menus />} />
-           <Route path='/gallery' element={<Gallery />} />
-           <Route path='/about_us' element={<About_us />} />
-           <Route path='/work_with_us' element={<Work_With_Us />} />
-           <Route path='/help_privacy' element={<Help_Privacy />} />
-           <Route path='*' element={<NotFoundPage />} />
-
-        <Route/>
+          <Route path='/' element={<Layout />}>
+            <Route index element={<HomePage />} />
+              <Route path='/' element={<HomePage />} />
+              <Route path='/reservations' element={<Reservations />} />
+              <Route path='/menus' element={<Menus />} />
+              <Route path='/gallery' element={<Gallery />} />
+              <Route path='/about_us' element={<About_us />} />
+              <Route path='/work_with_us' element={<Work_With_Us />} />
+              <Route path='/help_privacy' element={<Help_Privacy />} />
+              <Route path='*' element={<NotFoundPage />} />
         </Route>
       </Routes>
     </Router>
