@@ -14,7 +14,7 @@ function NavBar() {
       const date = new Date().getFullYear()
   return (
     <>
-    <section className='flex flex-col text-[12px] border-t border-[#3b2808] fira-sans-extralight'>
+    <section className='flex flex-col text-[12px] border-t border-white/20 fira-sans-extralight'>
       <div className='flex flex-col gap-6 ml-5 mt-6 mb-3'>
 
         <section className='flex'>

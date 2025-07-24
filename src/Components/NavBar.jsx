@@ -24,7 +24,7 @@ function NavBar() {
   return (
     <>
       
-      <div className='bg-[#000000] inter-300 mb-4 border-b border-[#3b2808]'>
+      <div className='bg-[#000000] inter-300 mb-4 border-b border-white/20'>
 
         <section className='mx-5 flex justify-between items-center py-[14px] relative'>
           <button onClick={toggleMenu}><img src={Hamburger_Menu} alt="" className='h-7' /></button>

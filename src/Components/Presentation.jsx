@@ -47,7 +47,14 @@ function Presentation() {
                 
               </section>
 
-              <img src={Hotelbg} alt="" className='mt-10 opacity-60 ' />
+              <section className='relative'>
+              <img src={Hotelbg} alt="" className='mt-10 opacity-40 ' />
+                <div className='absolute bottom-4 left-4 flex flex-col gap-1 fira-sans-thin text-[12px] text-white/80 '>
+                  <span className=''>Mejorando cada</span>
+                  <span className=''>Haciendolo mejor cada </span>
+                  <span className=''>Haciendolo y mejorando mas</span>
+                </div>
+              </section>
 
         </div>  
     </>
