@@ -12,7 +12,7 @@ import WifiGray from '../assets/wifi_gray.svg'
 import BarGray from '../assets/bar_gray.svg'
 import GymGray from '../assets/gym_gray.svg'
 import SpaGray from '../assets/spa_gray.svg'
-import Star from '../assets/Star.svg'
+import Star from '../assets/star.svg'
 
 import {Link} from 'react-router-dom'
 
