@@ -47,18 +47,18 @@ function Presentation() {
                     </p>
               </section>
 
-              <section className='flex gap-3 mt-3 text-white/70 inter-200'>
+              <section className='flex gap-2 mt-3 text-white/70 inter-200'>
 
                 <div className=' flex flex-col items-center gap-3 '>
-                  <h1 className='text-[12px] bg-[#4b3516d4] py-1 px-2 rounded-[4px] '>Resort</h1>
+                  <h1 className='text-[12px] bg-white/10 py-1 px-2 rounded-[4px] '>Resort</h1>
                 </div>
 
                 <div className=' flex flex-col items-center gap-3 '>
-                  <h1 className='text-[12px] bg-[#4b3516d4] py-1 px-2 rounded-[4px]'>Hosting</h1>
+                  <h1 className='text-[12px] bg-white/10 py-1 px-2 rounded-[4px]'>Hosting</h1>
                 </div>
 
                 <div className=' flex flex-col items-center gap-3 '>
-                  <h1 className='text-[12px] bg-[#4b3516d4] py-1 px-2 rounded-[4px]'>Restaurant</h1>
+                  <h1 className='text-[12px] bg-white/10 py-1 px-2 rounded-[4px]'>Restaurant</h1>
                 </div>
                 
               </section>
@@ -70,16 +70,16 @@ function Presentation() {
                 <div className='mt-6 flex gap-2 text-white/70 '>
                   
                   <section className='flex items-center gap-2 w-fit border border-white/20 py-1 px-2 rounded-md '>
-                    <img src={ParkingGray} alt="" className='h-4' />
-                    <span className='text-[12px] '>Parking Free</span>
+                    <img src={ParkingGray} alt="" className='h-[14px] ' />
+                    <span className='text-[10px] '>Parking Free</span>
                   </section>
                   <section className='flex items-center gap-2 w-fit border border-white/20 py-1 px-2 rounded-md '>
                     <img src={PoolGray} alt="" className='h-4' />
-                    <span className='text-[12px] '>Pool</span>
+                    <span className='text-[10px] '>Pool</span>
                   </section>
                   <section className='flex items-center gap-2 w-fit border border-white/20 py-1 px-2 rounded-md '>
-                    <img src={WifiGray} alt="" className='h-4' />
-                    <span className='text-[12px] '>Wifi Free 80 Mbps </span>
+                    <img src={WifiGray} alt="" className='h-[14px] ' />
+                    <span className='text-[10px] '>Wifi Free 80 Mbps </span>
                   </section>
                 </div>
 
@@ -87,16 +87,16 @@ function Presentation() {
                 
                   <section className='flex items-center gap-2 w-fit border border-white/20 py-1 px-2 rounded-md '>
                     <img src={BarGray} alt="" className='h-4' />
-                    <span className='text-[12px] '>Bar</span>
+                    <span className='text-[10px] '>Bar</span>
                   </section>
         
                   <section className='flex items-center gap-2 w-fit border border-white/20 py-1 px-2 rounded-md '>
                     <img src={SpaGray} alt="" className='h-4' />
-                    <span className='text-[12px] '>Spa & Sauna </span>
+                    <span className='text-[10px] '>Spa & Sauna </span>
                   </section>
                   <section className='flex items-center gap-2 w-fit border border-white/20 py-1 px-2 rounded-md '>
-                    <img src={GymGray} alt="" className='h-4' />
-                    <span className='text-[12px] '>Gym </span>
+                    <img src={GymGray} alt="" className='h-[14px] ' />
+                    <span className='text-[10px] '>Gym </span>
                   </section>
                 </div>
 

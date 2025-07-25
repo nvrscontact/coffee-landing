@@ -24,10 +24,10 @@ function NavBar() {
   return (
     <>
       
-      <div className='bg-[#362917d4] inter-300 mb-4'>
+      <div className='bg-[#0a0a0a] inter-300 mb-4 border-b border-white/10 '>
 
-        <section className='mx-5 flex justify-between items-center py-[14px] relative'>
-          <button onClick={toggleMenu}><img src={Hamburger_Menu} alt="" className='h-7' /></button>
+        <section className='mx-5 flex justify-between items-center relative h-[50px]'>
+          <button onClick={toggleMenu}><img src={Hamburger_Menu} alt="" className='h-6' /></button>
           
           <div ref={menuRef} style={{display: 'none', position: 'absolute', top: '35px', left: '5px' }}>
             <ul className='border border-white/30 rounded-[16px] '>
@@ -42,8 +42,8 @@ function NavBar() {
           </div>
         
           <section className='flex gap-4 items-center'>
-           <Link to='/'><img src={Home} alt="" className='h-5 ' /></Link>
-            <img src={Sun} alt="" className='h-5 ' />
+           <Link to='/'><img src={Home} alt="" className='h-4 ' /></Link>
+            <img src={Sun} alt="" className='h-4 ' />
           </section>
         </section>
 

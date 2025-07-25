@@ -14,8 +14,8 @@ function NavBar() {
       const date = new Date().getFullYear()
   return (
     <>
-    <section className='flex flex-col text-[12px] border-t border-white/20 fira-sans-extralight'>
-      <div className='flex flex-col gap-6 ml-5 mt-6 mb-3'>
+    <section className='bg-[#0a0a0a] flex justify-center items-center text-center flex-col text-[12px] border-t border-white/20 fira-sans-extralight'>
+      <div className='flex flex-col gap-6 '>
 
         <section className='flex'>
             <li className='flex gap-3 items-center'>
@@ -25,7 +25,7 @@ function NavBar() {
             </li>
         </section>
 
-        <section className='flex flex-col gap-3 text-white/50'>
+        <section className='flex flex-col gap-3 text-white/50 text-center'>
             <a className='hover-white'>Contact</a>
             <Link to='/about_us ' className='hover-white'>About Us</Link>
             <Link to='/work_with_us' className='hover-white'>Work with Us</Link>
