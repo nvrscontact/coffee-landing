@@ -11,8 +11,9 @@ function TopPlates() {
   return (
     <>
       <div className='mb-20 flex flex-col'>
-    
+        
               <section className='flex flex-col fira-sans-extralight my-28'>
+              <h1 className='text-white/10 text-4xl inter-200 text-center mb-20'>Restaurant</h1>
                 <h1 className='text-center text-[20px] pb-1 animated_white '>Our three most sold dishes</h1>
                 <section className='flex items-center justify-center gap-2 text-[10px] text-white/50 '>
                   <span className='first-btn'><img src={Heart} className='h-3' alt="" /> Most requested.</span>
