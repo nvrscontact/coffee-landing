@@ -35,7 +35,7 @@
     100% { background-position: 0% 50%; }
 }
 .animated_white {
-    background: linear-gradient(30deg, #868686,#868686, #868686, #868686, #b6b6b6, #b6b6b6, #868686, #868686, #868686,#868686);
+    background: linear-gradient(30deg, rgb(255, 255, 255,0.1),rgb(255, 255, 255,0.1), rgb(255, 255, 255,0.1), rgb(255, 255, 255,0.1), #b6b6b6, #b6b6b6, rgb(255, 255, 255,0.1), rgb(255, 255, 255,0.1), rgb(255, 255, 255,0.1),rgb(255, 255, 255,0.1));
     background-size: 200% 100%;
     background-clip: text;
     -webkit-text-fill-color: transparent;
