@@ -31,48 +31,57 @@ function Presentation() {
 
   return (
   <>
-      <div className='flex flex-col items-center justify-center mt-10 fira-sans-thin '>
+      <div className='flex flex-col items-center justify-center mt-10 '>
 
-              <section className='flex flex-col '>
-                  <h1 className='text-4xl text-[#7a520d] fira-sans-extralight'>Rosetti's Hotel</h1>
+            <div className='flex justify-center items-center ml-2 [&>*]:h-6 '>
+                          <img src={Star} alt="" />
+                          <img src={Star} alt="" />
+                          <img src={Star} alt="" />
+                          <img src={Star} alt="" />
+                          <img src={Star} alt="" />
+                          <span className='text-[12px] ml-1 pt-1 text-black/70 inter-300 '>4,5</span>
+              </div>
+
+
+              <section className='flex flex-col text-center'>
+                  <h1 className='text-4xl text-[#7a520d] inter-200'>Rosetti's Hotel</h1>
+                      <p className='text-[13px] flex flex-col items-center text-black text-center '>
+                          <span className='inter-300'>Calle Na Saurina de Entenza 60.</span>
+                          <span className='inter-300 flex itmes-center gap-1 '>Benidorm, Alicante</span>
+                        </p>
+                    <section className='flex gap-1 mt-2 text-white/70 inter-200'>
+
+                        <div className=' flex flex-col items-center gap-3 '>
+                          <h1 className='text-[14px] bg-[#6d4c13] border border-black/50 py-[6px] px-3 rounded-[4px] '>Resort</h1>
+                        </div>
+
+                        <div className=' flex flex-col items-center gap-3 '>
+                          <h1 className='text-[14px] bg-[#6d4c13] border border-black/50 py-[6px] px-3 rounded-[4px]'>Hosting</h1>
+                        </div>
+
+                        <div className=' flex flex-col items-center gap-3 '>
+                          <h1 className='text-[14px] bg-[#6d4c13] border border-black/50 py-[6px] px-3 rounded-[4px]'>Restaurant</h1>
+                        </div>
                   
-                    <p className='text-[13px] flex flex-col items-center text-white/50 text-center '>
-                      <span className='inter-200'>Calle Na Saurina de Entenza 60.</span>
-                      <span className='inter-200 flex itmes-center gap-1 '>Benidorm, Alicante</span>
-                    </p>
-
-                    <div className='flex justify-center items-center mt-1'>
-                    <img src={Star} alt="" className='h-[18px]' />
-                    <img src={Star} alt="" className='h-[18px] ' />
-                    <img src={Star} alt="" className='h-[18px]' />
-                    <img src={Star} alt="" className='h-[18px]' />
-                    <img src={Star} alt="" className='h-[18px]' />
-                    <span className='text-[12px] ml-1 pt-[3px] text-white/70 '>4,5</span>
-                  </div>
-              </section>
-
-              <section className='flex gap-2 mt-3 text-white/70 inter-200'>
-
-                <div className=' flex flex-col items-center gap-3 '>
-                  <h1 className='text-[14px] bg-[#3a2109] py-1 px-2 rounded-[4px] '>Resort</h1>
-                </div>
-
-                <div className=' flex flex-col items-center gap-3 '>
-                  <h1 className='text-[14px] bg-[#3a2109] py-1 px-2 rounded-[4px]'>Hosting</h1>
-                </div>
-
-                <div className=' flex flex-col items-center gap-3 '>
-                  <h1 className='text-[14px] bg-[#3a2109] py-1 px-2 rounded-[4px]'>Restaurant</h1>
-                </div>
+                      </section>
+                  
+                  
                 
+                  
+                    
+
+
+
               </section>
+
+          
               
 
-              <section className='flex flex-col justify-center items-center'>
-                <img src={Hotelbg} alt="" className='mt-10 opacity-40 ' />
+              <section className='flex flex-col justify-center items-center text-black inter-200'>
+                <img src={Hotelbg} alt="" className=' opacity-40 mt-6 mb-4' />
 
 
-                <div className='mt-6 flex gap-1 text-white/80 '>
+                <div className=' flex gap-2 '>
                   
                  <Benefits img={ParkingGray} title={'Parking Free'}/>
                  <Benefits img={PoolGray} title={'Pool'}/>
@@ -80,7 +89,7 @@ function Presentation() {
               
                 </div>
 
-                <div className='mt-3 flex gap-1 text-white/80'>
+                <div className='mt-3 flex gap-2'>
                 
                  <Benefits img={BarGray} title={'Bar'}/>
                  <Benefits img={SpaGray} title={'Spa & Sauna'}/>

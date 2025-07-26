@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-    <section className='bg-black'>
+    <section className=''>
     <Router>
       <Routes>
           <Route path='/' element={<Layout />}>

@@ -7,7 +7,7 @@ import Star_Out from '../../assets/star-out.svg'
 function Reviews({names,dates,paragraph,stars}) {
   return (
     <>
-    <div className='border border-white/30 p-1 w-fit max-w-80 overflow-hidden break-words rounded-xl text-pretty flex flex-col fira-sans-extralight'>
+    <div className='border border-black/30 bg-black/40 text-white p-1 w-fit max-w-80 overflow-hidden break-words rounded-xl text-pretty flex flex-col fira-sans-extralight'>
         
         <section className='flex flex-col p-[6px] '>
 
@@ -23,10 +23,10 @@ function Reviews({names,dates,paragraph,stars}) {
               </section>
           
           </section>
-          <span className=' text-white/40 text-[10px] '>{dates}</span>
+          <span className=' text-white/70 text-[10px] '>{dates}</span>
        </section>
 
-      <span className='text-[11px] bg-white/10 p-2 rounded-[8px] '>{paragraph}</span>
+      <span className='text-[11px] text-white  bg-black/60 p-2 rounded-[8px] '>{paragraph}</span>
     </div>
     </>
   )
