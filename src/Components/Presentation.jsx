@@ -31,7 +31,7 @@ function Presentation() {
 
   return (
   <>
-      <div className='flex flex-col items-center justify-center mt-10 '>
+      <div className='flex flex-col items-center justify-center mt-10 mb-20 '>
 
             <div className='flex justify-center items-center ml-2 [&>*]:h-6 '>
                           <img src={Star} alt="" />
