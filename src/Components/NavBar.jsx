@@ -1,7 +1,6 @@
 import {Link} from 'react-router-dom'
 
 import Home from '../assets/home.svg'
-import Languages from '../assets/languages.svg'
 import Sun from '../assets/sun.svg'
 import Hamburger_Menu from '../assets/hamburger_menu.svg'
 

@@ -1,17 +1,12 @@
-import React from 'react'
-import Grid_Coffe_One from '../assets/grid_coffee_one.jpg'
-import Location from '../assets/location.svg'
-import Coffe from '../assets/coffe.svg'
-import Wifi from '../assets/wifi.svg'
-import Wine from '../assets/wine.svg'
-import Spoon from '../assets/spoon.svg'
 import Hotelbg from '../assets/hotelbg.jpg'
-import ParkingGray from '../assets/parking_gray.svg'
-import PoolGray from '../assets/pool_gray.svg'
-import WifiGray from '../assets/wifi_gray.svg'
-import BarGray from '../assets/bar_gray.svg'
-import GymGray from '../assets/gym_gray.svg'
-import SpaGray from '../assets/spa_gray.svg'
+
+import parkingGold from '../assets/parkingGold.svg'
+import poolGold from '../assets/poolGold.svg'
+import wifiGold from '../assets/wifiGold.svg'
+import barGold from '../assets/barGold.svg'
+import gymGold from '../assets/gymGold.svg'
+import spaGold from '../assets/spaGold.svg'
+
 import Star from '../assets/star.svg'
 
 import Benefits from '../Components/SubComponents/Benefits'
@@ -83,17 +78,17 @@ function Presentation() {
 
                 <div className=' flex gap-2 '>
                   
-                 <Benefits img={ParkingGray} title={'Parking Free'}/>
-                 <Benefits img={PoolGray} title={'Pool'}/>
-                 <Benefits img={WifiGray} title={'Wifi Free 80 Mbps'}/>
+                 <Benefits img={parkingGold} title={'Parking Free'}/>
+                 <Benefits img={poolGold} title={'Pool'}/>
+                 <Benefits img={wifiGold} title={'Wifi Free 80 Mbps'}/>
               
                 </div>
 
                 <div className='mt-3 flex gap-2'>
                 
-                 <Benefits img={BarGray} title={'Bar'}/>
-                 <Benefits img={SpaGray} title={'Spa & Sauna'}/>
-                 <Benefits img={GymGray} title={'Gym'}/>
+                 <Benefits img={barGold} title={'Bar'}/>
+                 <Benefits img={spaGold} title={'Spa & Sauna'}/>
+                 <Benefits img={gymGold} title={'Gym'}/>
                 </div>
 
 
