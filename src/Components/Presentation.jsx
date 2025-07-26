@@ -52,15 +52,15 @@ function Presentation() {
                     <section className='flex gap-1 mt-2 text-white/70 inter-200'>
 
                         <div className=' flex flex-col items-center gap-3 '>
-                          <h1 className='text-[14px] bg-[#6d4c13] border border-black/50 py-[6px] px-3 rounded-[4px] '>Resort</h1>
+                          <h1 className='text-[14px] bg-[#af782a] border border-black/50 py-[6px] px-3 rounded-[4px] '>Resort</h1>
                         </div>
 
                         <div className=' flex flex-col items-center gap-3 '>
-                          <h1 className='text-[14px] bg-[#6d4c13] border border-black/50 py-[6px] px-3 rounded-[4px]'>Hosting</h1>
+                          <h1 className='text-[14px] bg-[#af782a] border border-black/50 py-[6px] px-3 rounded-[4px]'>Hosting</h1>
                         </div>
 
                         <div className=' flex flex-col items-center gap-3 '>
-                          <h1 className='text-[14px] bg-[#6d4c13] border border-black/50 py-[6px] px-3 rounded-[4px]'>Restaurant</h1>
+                          <h1 className='text-[14px] bg-[#af782a] border border-black/50 py-[6px] px-3 rounded-[4px]'>Restaurant</h1>
                         </div>
                   
                       </section>
