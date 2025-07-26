@@ -44,23 +44,23 @@ function Presentation() {
 
 
               <section className='flex flex-col text-center'>
-                  <h1 className='text-4xl text-[#7a520d] inter-200'>Rosetti's Hotel</h1>
-                      <p className='text-[13px] flex flex-col items-center text-black text-center '>
+                  <h1 className='text-4xl text-[#7a520d] inter-200 mb-1'>Rosetti's Hotel</h1>
+                      <p className='text-[13px] mb-1 flex flex-col items-center text-[#63430b] text-center '>
                           <span className='inter-300'>Calle Na Saurina de Entenza 60.</span>
                           <span className='inter-300 flex itmes-center gap-1 '>Benidorm, Alicante</span>
-                        </p>
-                    <section className='flex gap-1 mt-2 text-white/70 inter-200'>
+                      </p>
+                    <section className='flex gap-2 mt-2 text-white/70 inter-200'>
 
                         <div className=' flex flex-col items-center gap-3 '>
-                          <h1 className='text-[14px] bg-[#af782a] border border-black/50 py-[6px] px-3 rounded-[4px] '>Resort</h1>
+                          <h1 className='text-[14px] bg-[#7a520d]  py-[6px] px-3 rounded-xl '>Resort</h1>
                         </div>
 
                         <div className=' flex flex-col items-center gap-3 '>
-                          <h1 className='text-[14px] bg-[#af782a] border border-black/50 py-[6px] px-3 rounded-[4px]'>Hosting</h1>
+                          <h1 className='text-[14px] bg-[#7a520d]  py-[6px] px-3 rounded-xl'>Hosting</h1>
                         </div>
 
                         <div className=' flex flex-col items-center gap-3 '>
-                          <h1 className='text-[14px] bg-[#af782a] border border-black/50 py-[6px] px-3 rounded-[4px]'>Restaurant</h1>
+                          <h1 className='text-[14px] bg-[#7a520d] py-[6px] px-3 rounded-xl'>Restaurant</h1>
                         </div>
                   
                       </section>

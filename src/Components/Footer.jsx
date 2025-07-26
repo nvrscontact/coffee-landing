@@ -14,7 +14,7 @@ function NavBar() {
       const date = new Date().getFullYear()
   return (
     <>
-    <section className='bg-black/80 flex text-[12px]'>
+    <section className='bg-[#6b4c17] flex text-[12px]'>
       <div className='flex flex-col gap-10 m-6 '>
 
         <section className='flex'>
@@ -27,14 +27,14 @@ function NavBar() {
 
         <section className='flex gap-10'>
 
-          <section className='flex flex-col gap-3 text-white/80 inter-300'>
+          <section className='flex flex-col gap-3 text-white/70 inter-200'>
               <h2 className='text-white text-[14px] mb-1'>Company</h2>
               <a className='hover-white'>Contact</a>
               <Link to='/about_us ' className='hover-white'>About Us</Link>
               <Link to='/work_with_us' className='hover-white'>Work with Us</Link>
               <Link to='/work_with_us' className='hover-white'>Events</Link>
           </section>
-          <section className='flex flex-col gap-3 text-white/80 inter-300'>
+          <section className='flex flex-col gap-3 text-white/70 inter-200'>
               <h2 className='text-white text-[14px] mb-1'>Information</h2>
               <Link to='/help_privacy' className='hover-white'>Help & Support</Link>
               <Link to='/help_privacy' className='hover-white'>Privacy & Cookies</Link>
@@ -42,7 +42,7 @@ function NavBar() {
    
         </section>
       
-        <span className='flex text-black/80  text-[12px] '>© Rosetti's Coffe {date} - All Rights Reserved </span>
+        <span className='flex inter-200 text-white/50 text-[12px] '>© Rosetti's Coffe {date} - All Rights Reserved </span>
 
 
       </div>
