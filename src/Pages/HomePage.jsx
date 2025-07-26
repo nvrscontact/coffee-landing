@@ -1,6 +1,7 @@
 import Presentation from '../Components/Presentation'
-import TopPlates from '../Components/TopPlates'
+import Restaurant from '../Components/Restaurant'
 import Reviews from '../Components/Reviews'
+import Hotel from '../Components/Hotel'
 
 
 function HomePage() {
@@ -8,8 +9,9 @@ function HomePage() {
       <>
 
       <Presentation/>
+      <Hotel/>
       
-      <TopPlates/>
+      <Restaurant/>
       <Reviews/>
       
       </>

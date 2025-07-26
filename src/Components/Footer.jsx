@@ -14,37 +14,35 @@ function NavBar() {
       const date = new Date().getFullYear()
   return (
     <>
-    <section className='bg-[#0a0a0a] flex justify-center items-center text-center flex-col text-[12px] border-t border-white/20 fira-sans-extralight'>
-      <div className='flex flex-col gap-6 '>
+    <section className='bg-[#0a0a0a] flex text-[12px] border-t border-white/20 fira-sans-extralight'>
+      <div className='flex flex-col gap-10 m-6 '>
 
         <section className='flex'>
             <li className='flex gap-3 items-center'>
-                <a href="https://facebook.com"><img src={instagram_icon} alt="" className='h-4' /></a>
-                <a href="https://facebook.com"><img src={tiktok_icon} alt="" className='h-4 ' /></a>
-                <a href="https://facebook.com"><img src={twitter_icon} alt="" className='h-4' /></a>
+                <a href="https://facebook.com"><img src={instagram_icon} alt="" className='h-5' /></a>
+                <a href="https://facebook.com"><img src={tiktok_icon} alt="" className='h-[18px] ' /></a>
+                <a href="https://facebook.com"><img src={twitter_icon} alt="" className='h-5' /></a>
             </li>
         </section>
 
-        <section className='flex flex-col gap-3 text-white/50 text-center'>
-            <a className='hover-white'>Contact</a>
-            <Link to='/about_us ' className='hover-white'>About Us</Link>
-            <Link to='/work_with_us' className='hover-white'>Work with Us</Link>
-            <Link to='/help_privacy' className='hover-white'>Help & Support</Link>
-            <Link to='/help_privacy' className='hover-white'>Privacy & Cookies</Link>
-        </section>
-        
+        <section className='flex gap-10'>
 
-        <section className='flex gap-3'>
-          <img src={apple_pay} alt="" className='h-7' />
-          <img src={american_express_pay} alt="" className='h-7' />
-          <img src={paypal_pay} alt="" className='h-7' />
-          <img src={mastercard_pay} alt="" className='h-7' />
-          <img src={visa_pay} alt="" className='h-7' />
+          <section className='flex flex-col gap-3 text-white/40'>
+              <h2 className='text-white/70 text-[14px] mb-1'>Company</h2>
+              <a className='hover-white'>Contact</a>
+              <Link to='/about_us ' className='hover-white'>About Us</Link>
+              <Link to='/work_with_us' className='hover-white'>Work with Us</Link>
+              <Link to='/work_with_us' className='hover-white'>Events</Link>
+          </section>
+          <section className='flex flex-col gap-3 text-white/40'>
+              <h2 className='text-white/70 text-[14px] mb-1'>Information</h2>
+              <Link to='/help_privacy' className='hover-white'>Help & Support</Link>
+              <Link to='/help_privacy' className='hover-white'>Privacy & Cookies</Link>
+          </section>
+   
         </section>
       
-        <span className='flex flex-col text-white/30  text-[12px] '>Rosetti's Coffe © {date}
-          <span className='colrs'>All rights reserved.</span>
-        </span>
+        <span className='flex text-white/30  text-[12px] '>© Rosetti's Coffe {date} - All Rights Reserved </span>
 
 
       </div>

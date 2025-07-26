@@ -14,6 +14,8 @@ import GymGray from '../assets/gym_gray.svg'
 import SpaGray from '../assets/spa_gray.svg'
 import Star from '../assets/star.svg'
 
+import Benefits from '../Components/SubComponents/Benefits'
+
 import {Link} from 'react-router-dom'
 
 
@@ -32,72 +34,57 @@ function Presentation() {
       <div className='flex flex-col items-center justify-center mt-10 fira-sans-thin '>
 
               <section className='flex flex-col '>
-                  <h1 className='text-3xl text-[#7a520d] fira-sans-extralight'>Rosetti's Hotel</h1>
-                  <div className='flex justify-center items-center'>
-                    <img src={Star} alt="" className='h-4' />
-                    <img src={Star} alt="" className='h-4' />
-                    <img src={Star} alt="" className='h-4' />
-                    <img src={Star} alt="" className='h-4' />
-                    <img src={Star} alt="" className='h-4' />
-                    <span className='text-[10px] ml-1 pt-[3px] text-white/70 '>4,5</span>
-                  </div>
-                    <p className='text-[12px] flex flex-col items-center mt-1 text-white/60 text-center '>
+                  <h1 className='text-4xl text-[#7a520d] fira-sans-extralight'>Rosetti's Hotel</h1>
+                  
+                    <p className='text-[13px] flex flex-col items-center text-white/50 text-center '>
                       <span className='inter-200'>Calle Na Saurina de Entenza 60.</span>
-                      <span className='inter-200 flex itmes-center gap-1 '>Alcoy, Alicante</span>
+                      <span className='inter-200 flex itmes-center gap-1 '>Benidorm, Alicante</span>
                     </p>
+
+                    <div className='flex justify-center items-center mt-1'>
+                    <img src={Star} alt="" className='h-[18px]' />
+                    <img src={Star} alt="" className='h-[18px] ' />
+                    <img src={Star} alt="" className='h-[18px]' />
+                    <img src={Star} alt="" className='h-[18px]' />
+                    <img src={Star} alt="" className='h-[18px]' />
+                    <span className='text-[12px] ml-1 pt-[3px] text-white/70 '>4,5</span>
+                  </div>
               </section>
 
               <section className='flex gap-2 mt-3 text-white/70 inter-200'>
 
                 <div className=' flex flex-col items-center gap-3 '>
-                  <h1 className='text-[12px] bg-white/10 py-1 px-2 rounded-[4px] '>Resort</h1>
+                  <h1 className='text-[14px] bg-[#3a2109] py-1 px-2 rounded-[4px] '>Resort</h1>
                 </div>
 
                 <div className=' flex flex-col items-center gap-3 '>
-                  <h1 className='text-[12px] bg-white/10 py-1 px-2 rounded-[4px]'>Hosting</h1>
+                  <h1 className='text-[14px] bg-[#3a2109] py-1 px-2 rounded-[4px]'>Hosting</h1>
                 </div>
 
                 <div className=' flex flex-col items-center gap-3 '>
-                  <h1 className='text-[12px] bg-white/10 py-1 px-2 rounded-[4px]'>Restaurant</h1>
+                  <h1 className='text-[14px] bg-[#3a2109] py-1 px-2 rounded-[4px]'>Restaurant</h1>
                 </div>
                 
               </section>
+              
 
               <section className='flex flex-col justify-center items-center'>
                 <img src={Hotelbg} alt="" className='mt-10 opacity-40 ' />
 
 
-                <div className='mt-6 flex gap-2 text-white/70 '>
+                <div className='mt-6 flex gap-1 text-white/80 '>
                   
-                  <section className='flex items-center gap-2 w-fit border border-white/20 py-1 px-2 rounded-md '>
-                    <img src={ParkingGray} alt="" className='h-[14px] ' />
-                    <span className='text-[10px] '>Parking Free</span>
-                  </section>
-                  <section className='flex items-center gap-2 w-fit border border-white/20 py-1 px-2 rounded-md '>
-                    <img src={PoolGray} alt="" className='h-4' />
-                    <span className='text-[10px] '>Pool</span>
-                  </section>
-                  <section className='flex items-center gap-2 w-fit border border-white/20 py-1 px-2 rounded-md '>
-                    <img src={WifiGray} alt="" className='h-[14px] ' />
-                    <span className='text-[10px] '>Wifi Free 80 Mbps </span>
-                  </section>
+                 <Benefits img={ParkingGray} title={'Parking Free'}/>
+                 <Benefits img={PoolGray} title={'Pool'}/>
+                 <Benefits img={WifiGray} title={'Wifi Free 80 Mbps'}/>
+              
                 </div>
 
-                <div className='mt-3 flex gap-2 text-white/70'>
+                <div className='mt-3 flex gap-1 text-white/80'>
                 
-                  <section className='flex items-center gap-2 w-fit border border-white/20 py-1 px-2 rounded-md '>
-                    <img src={BarGray} alt="" className='h-4' />
-                    <span className='text-[10px] '>Bar</span>
-                  </section>
-        
-                  <section className='flex items-center gap-2 w-fit border border-white/20 py-1 px-2 rounded-md '>
-                    <img src={SpaGray} alt="" className='h-4' />
-                    <span className='text-[10px] '>Spa & Sauna </span>
-                  </section>
-                  <section className='flex items-center gap-2 w-fit border border-white/20 py-1 px-2 rounded-md '>
-                    <img src={GymGray} alt="" className='h-[14px] ' />
-                    <span className='text-[10px] '>Gym </span>
-                  </section>
+                 <Benefits img={BarGray} title={'Bar'}/>
+                 <Benefits img={SpaGray} title={'Spa & Sauna'}/>
+                 <Benefits img={GymGray} title={'Gym'}/>
                 </div>
 
 

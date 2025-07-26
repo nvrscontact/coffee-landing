@@ -9,7 +9,7 @@ import Gallery from './Pages/Gallery';
 import NotFoundPage from './Pages/NotFoundPage';
 import About_us from './Pages/About_us';
 import Help_Privacy from './Pages/Help_Privacy';
-import Work_With_Us from './Pages/Work_With_Us';
+import Carreers from './Pages/Carreers';
 
 function App() {
 
@@ -25,7 +25,7 @@ function App() {
               <Route path='/menus' element={<Menus />} />
               <Route path='/gallery' element={<Gallery />} />
               <Route path='/about_us' element={<About_us />} />
-              <Route path='/work_with_us' element={<Work_With_Us />} />
+              <Route path='/carreers' element={<Carreers />} />
               <Route path='/help_privacy' element={<Help_Privacy />} />
               <Route path='*' element={<NotFoundPage />} />
         </Route>

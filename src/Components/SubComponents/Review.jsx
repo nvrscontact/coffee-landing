@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Star from '../assets/star.svg'
-import Star_Out from '../assets/star-out.svg'
+import Star from '../../assets/star.svg'
+import Star_Out from '../../assets/star-out.svg'
 
 
 function Reviews({names,dates,paragraph,stars}) {
