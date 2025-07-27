@@ -38,39 +38,39 @@ function Presentation() {
                   <img src={Star} alt="" />
                   <span className='text-[12px] pt-[3px] text-black/70 inter-300 '>4,5</span>
                 </div>
-                <p className='text-[14px] mb-1 flex flex-col items-center text-[#63430b] text-center '>
+                <p className='text-[12px] mb-1 flex flex-col items-center text-[#63430b] text-center '>
                     <span className='inter-300'>Calle Na Saurina de Entenza 60.</span>
                     <span className='inter-300 flex itmes-center gap-1 '>Benidorm, Alicante</span>
                 </p>
                 <section className='flex gap-2 mt-2 text-white/70 inter-300'>
                     <div className=' flex flex-col items-center gap-3 '>
-                      <h1 className='text-[14px] bg-[#7a520dbd]  py-[6px] px-3 '>Resort</h1>
+                      <h1 className='text-[14px] bg-[#7a520dd5]  py-[6px] px-3 border-b-[4px] border-black/70   '>Resort</h1>
                     </div>
 
                     <div className=' flex flex-col items-center gap-3 '>
-                      <h1 className='text-[14px] bg-[#7a520dbd]  py-[6px] px-3 '>Hosting</h1>
+                      <h1 className='text-[14px] bg-[#7a520dd5]  py-[6px] px-3 border-b-[4px] border-black/70'>Hosting</h1>
                     </div>
 
                     <div className=' flex flex-col items-center gap-3 '>
-                      <h1 className='text-[14px] bg-[#7a520dbd] py-[6px] px-3'>Restaurant</h1>
+                      <h1 className='text-[14px] bg-[#7a520dd5] py-[6px] px-3 border-b-[4px] border-black/70'>Restaurant</h1>
                     </div>
               
                   </section>
               </section>
 
               <section className='flex flex-col justify-center items-center text-black inter-200'>
-                <div className='w-full flex flex-col mt-6 mb-4'>
-                <span className='h-[1px] border border-[#7a520d5d] mx-4 '></span>
-                <img src={Hotelbg} alt="" className='opacity-90 my-2' />
-                <span className='h-[1px] border border-[#7a520d5d] mx-4 '></span>
+                <div className='w-full flex flex-col my-6'>
+                <span className='h-2 bg-[#79570ff1] mx-4  '></span>
+                <img src={Hotelbg} alt="" className='opacity-90 shadow-2xl shadow-[#000] ' />
+                <span className='h-2 bg-[#79570ff1] mx-4 '></span>
                 </div>
                 <div className='flex gap-2 '>
-                  <Benefits img={poolWhite} title={'Pool'}/>
-                  <Benefits img={wifiWhite} title={'Wifi 80 Mbps'}/>
-                  <Benefits img={barWhite} title={'Bar'}/>
-                  <Benefits img={parkingWhite} title={'Parking'}/>
-                  <Benefits img={spaWhite} title={'Spa'}/>
-                  <Benefits img={gymWhite} title={'Gym'}/>
+                  <Benefits img={poolWhite} title={'Pool'} description={'Free'}/>
+                  <Benefits img={wifiWhite} title={'Wifi'} description={'80 Mbps'} />
+                  <Benefits img={parkingWhite} title={'Parking'} description='Free'/>
+                  <Benefits img={spaWhite} title={'Spa'} description={'Free'} />
+                  <Benefits img={barWhite} title={'Bar'} description={'24 h'} />
+                  <Benefits img={gymWhite} title={'Gym'} description={'Free'} />
                 </div>
               </section>
 

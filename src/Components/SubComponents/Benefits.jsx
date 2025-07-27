@@ -1,14 +1,17 @@
 import React from 'react'
 
-function Benefits({img,title,height}) {
+function Benefits({img,title,description}) {
   return (
     <>
-        <section className='flex flex-col gap-1 w-full text-center items-center'>
-          <div className='bg-[#79570ff1] w-fit p-2 rounded-md border border-black/40'>
-            <img src={img} alt="" className='h-7' />
+        <article className='flex flex-col text-center'>
+        <section className='flex flex-col text-center items-center mb-1'>
+          <div className='bg-[#79570ff1] w-fit py-2 px-3 border border-black/50'>
+            <img src={img} alt="" className='h-6' />
           </div>
-            <span className='text-[9px] text-[#7a5300] inter-500 '>{title}</span>
+            <span className='bg-black/80 text-white py-1 text-[9px] inter-200 w-full'>{title}</span>
         </section>
+        <span className='text-[10px] text-black/70 inter-300 '>{description} </span>
+        </article>
     </>
   )
 }
