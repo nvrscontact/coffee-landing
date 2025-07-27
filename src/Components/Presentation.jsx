@@ -26,7 +26,7 @@ function Presentation() {
 
   return (
   <>
-      <div className='flex flex-col items-center justify-center mt-10 mb-20 '>
+      <div className='flex flex-col items-center justify-center mt-8 mb-20 '>
 
               <section className='flex flex-col text-center'>
                 <h1 className='text-4xl text-[#7a520d] inter-200'>Rosetti's Hotel</h1>
@@ -61,10 +61,13 @@ function Presentation() {
               <section className='flex flex-col justify-center items-center text-black inter-200'>
                 <div className='w-full flex flex-col my-6'>
                 <span className='h-2 bg-[#79570ff1] mx-4  '></span>
-                <img src={Hotelbg} alt="" className='opacity-90 shadow-2xl shadow-[#000] ' />
+                <div className='relative'>
+                <span className='absolute text-white left-28 top-4 bg-black/50 py-1 px-2 rounded-md text-[12px] '>#4 Bedroom, 3rd floor</span>
+                <img src={Hotelbg} alt="" className=' shadow-2xl shadow-[#000] ' />
+                </div>
                 <span className='h-2 bg-[#79570ff1] mx-4 '></span>
                 </div>
-                <div className='flex gap-2 '>
+                <div className='flex gap-1 '>
                   <Benefits img={poolWhite} title={'Pool'} description={'Free'}/>
                   <Benefits img={wifiWhite} title={'Wifi'} description={'80 Mbps'} />
                   <Benefits img={parkingWhite} title={'Parking'} description='Free'/>
