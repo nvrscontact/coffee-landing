@@ -1,11 +1,11 @@
 import Hotelbg from '../assets/hotelbg.jpg'
 
-import parkingGold from '../assets/parkingGold.svg'
-import poolGold from '../assets/poolGold.svg'
-import wifiGold from '../assets/wifiGold.svg'
-import barGold from '../assets/barGold.svg'
-import gymGold from '../assets/gymGold.svg'
-import spaGold from '../assets/spaGold.svg'
+import parkingWhite from '../assets/parkingWhite.svg'
+import poolWhite from '../assets/poolWhite.svg'
+import wifiWhite from '../assets/wifiWhite.svg'
+import barWhite from '../assets/barWhite.svg'
+import gymWhite from '../assets/gymWhite.svg'
+import spaWhite from '../assets/spaWhite.svg'
 
 import Star from '../assets/star.svg'
 
@@ -64,15 +64,13 @@ function Presentation() {
                 <img src={Hotelbg} alt="" className='opacity-90 my-2' />
                 <span className='h-[1px] border border-[#7a520d5d] mx-4 '></span>
                 </div>
-                <div className='flex gap-1 '>
-                  <Benefits img={parkingGold} title={'Parking Free'}/>
-                  <Benefits img={poolGold} title={'Pool'}/>
-                  <Benefits img={wifiGold} title={'Wifi Free 80 Mbps'}/>
-                </div>
-                <div className='mt-3 flex gap-1'>
-                  <Benefits img={barGold} title={'Bar'}/>
-                  <Benefits img={spaGold} title={'Spa & Sauna'}/>
-                  <Benefits img={gymGold} title={'Gym'}/>
+                <div className='flex gap-2 '>
+                  <Benefits img={poolWhite} title={'Pool'}/>
+                  <Benefits img={wifiWhite} title={'Wifi 80 Mbps'}/>
+                  <Benefits img={barWhite} title={'Bar'}/>
+                  <Benefits img={parkingWhite} title={'Parking'}/>
+                  <Benefits img={spaWhite} title={'Spa'}/>
+                  <Benefits img={gymWhite} title={'Gym'}/>
                 </div>
               </section>
 
