@@ -8,6 +8,11 @@ function Hotel() {
         <span className='border h-[1px] mx-20 my-3 border-[#7a520d] '></span>
         <p className='text-center mb-10 text-[12px] mx-4 text-[#7a520d] inter-300'>We want to give you the guarantee that our services are very pleasant for the people who have tried them.</p>
     
+
+        <section className='flex gap-2 justify-center'>
+          <button className='bg-[#7a520dd0] text-white py-2 px-4 '>Reserva</button>
+          <button className='text-[#7a520dd0] inter-400'>Información</button>
+        </section>
     </div>
     </>
   )

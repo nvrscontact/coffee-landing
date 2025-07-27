@@ -23,7 +23,7 @@ function NavBar() {
   return (
     <>
       
-      <div className='bg-[#6b4c17] inter-300 mb-4 border-b border-black/30 '>
+      <div className='bg-[#7a520dd0] inter-300 '>
 
         <section className='mx-5 flex justify-between items-center relative h-[50px]'>
           <button onClick={toggleMenu}><img src={Hamburger_Menu} alt="" className='h-6' /></button>
@@ -46,6 +46,10 @@ function NavBar() {
           </section>
         </section>
 
+      </div>
+
+      <div className='bg-black/80 text-white text-[12px] py-2 text-center inter-300 '>
+        <span>10% Descuento en Habitaciones para dos</span>
       </div>
 
     </>
