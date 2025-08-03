@@ -1,3 +1,6 @@
+import resort_hotel from '../assets/resort_hotel.jpg'
+import restaurant_hotel from '../assets/restaurant_hotel.jpg'
+import hosting_hotel from '../assets/hosting_hotel.jpg'
 import Hotelbg from '../assets/hotelbg.jpg'
 
 import parkingWhite from '../assets/parkingWhite.svg'
@@ -26,11 +29,11 @@ function Presentation() {
 
   return (
   <>
-      <div className='flex flex-col items-center justify-center mt-8 mb-20 '>
+      <div className='mt-8 mb-20 '>
 
-              <section className='flex flex-col text-center'>
+              <section className='text-end flex flex-col items-end mr-5'>
                 <h1 className='text-4xl text-[#7a520d] inter-200'>Rosetti's Hotel</h1>
-                <div className='flex justify-center items-center ml-2 mb-1 [&>*]:h-5 '>
+                <div className='flex ml-2 mb-1 [&>*]:h-5 '>
                   <img src={Star} alt="" />
                   <img src={Star} alt="" />
                   <img src={Star} alt="" />
@@ -42,38 +45,41 @@ function Presentation() {
                     <span className='inter-300'>Calle Na Saurina de Entenza 60.</span>
                     <span className='inter-300 flex itmes-center gap-1 '>Benidorm, Alicante</span>
                 </p>
-                <section className='flex gap-2 mt-2 text-white/70 inter-300'>
-                    <div className=' flex flex-col items-center gap-3 '>
-                      <h1 className='text-[14px] bg-[#7a520dd5]  py-[6px] px-3 border-b-[4px] border-black/70   '>Resort</h1>
-                    </div>
-
-                    <div className=' flex flex-col items-center gap-3 '>
-                      <h1 className='text-[14px] bg-[#7a520dd5]  py-[6px] px-3 border-b-[4px] border-black/70'>Hosting</h1>
-                    </div>
-
-                    <div className=' flex flex-col items-center gap-3 '>
-                      <h1 className='text-[14px] bg-[#7a520dd5] py-[6px] px-3 border-b-[4px] border-black/70'>Restaurant</h1>
-                    </div>
-              
-                  </section>
               </section>
 
               <section className='flex flex-col justify-center items-center text-black inter-200'>
-                <div className='w-full flex flex-col my-6'>
-                <span className='h-2 bg-[#79570ff1] mx-4  '></span>
-                <div className='relative'>
-                <span className='absolute text-white left-28 top-4 bg-black/50 py-1 px-2 rounded-md text-[12px] '>#4 Bedroom, 3rd floor</span>
-                <img src={Hotelbg} alt="" className=' shadow-2xl shadow-[#000] ' />
-                </div>
-                <span className='h-2 bg-[#79570ff1] mx-4 '></span>
-                </div>
-                <div className='flex gap-1 '>
-                  <Benefits img={poolWhite} title={'Pool'} description={'Free'}/>
-                  <Benefits img={wifiWhite} title={'Wifi'} description={'80 Mbps'} />
-                  <Benefits img={parkingWhite} title={'Parking'} description='Free'/>
-                  <Benefits img={spaWhite} title={'Spa'} description={'Free'} />
-                  <Benefits img={barWhite} title={'Bar'} description={'24 h'} />
-                  <Benefits img={gymWhite} title={'Gym'} description={'Free'} />
+                <div className='flex gap-2'>
+                  <section className='text-center space-y-2'>
+                    <h1 className='bg-[#7a520dd5]  py-[6px] px-3  text-white'>Resort</h1>
+                    <img src={resort_hotel} alt="" className=' w-28 h-62 ' />
+                      <div className='flex flex-col items-center   '>
+                      <section className='py-2 px-8 bg-[#1b1b1bd5]'>
+                      <img src={poolWhite} alt="" className='h-6  ' />
+                      </section>
+                      <span className='text-[#1b1b1bd5] inter-500 text-[12px] border-t border-[#1b1b1bd5] px-8 py-2 mt-1 '>Pool </span>
+                    </div>
+                  </section>
+                  <section className='mt-10 text-center space-y-2'>
+                    <h1 className='bg-[#7a520dd5] text-white py-[6px] px-3 '>Hosting</h1>
+                    
+                    <img src={restaurant_hotel} alt="" className=' w-28 h-62' />
+                      <div className='flex flex-col items-center   '>
+                      <section className='py-2 px-8 bg-[#1b1b1bd5]'>
+                      <img src={parkingWhite} alt="" className='h-6  ' />
+                      </section>
+                      <span className='text-[#1b1b1bd5] inter-500 text-[12px] border-t border-[#1b1b1bd5] px-2 py-2 mt-1 '>Parking Free</span>
+                    </div>
+                  </section>
+                  <section className='mt-20 text-center space-y-2'>
+                    <h1 className='bg-[#7a520dd5]  py-[6px] px-3  text-white '>Restaurant</h1>
+                    <img src={hosting_hotel} alt="" className=' w-28 h-62' />
+                    <div className='flex flex-col items-center '>
+                      <section className='py-2 px-8 bg-[#1b1b1bd5]'>
+                      <img src={barWhite} alt="" className='h-6  ' />
+                      </section>
+                      <span className='text-[#1b1b1bd5] inter-500 text-[12px] border-t border-[#1b1b1bd5] px-4 py-2 mt-1 '>Bar & Rest </span>
+                    </div>
+                  </section>
                 </div>
               </section>
 

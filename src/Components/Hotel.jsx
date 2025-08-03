@@ -10,8 +10,8 @@ function Hotel() {
     
 
         <section className='flex gap-2 justify-center'>
-          <button className='bg-[#7a520dd0] text-white py-2 px-4 '>Reserva</button>
-          <button className='text-[#7a520dd0] inter-400'>Información</button>
+          <button className='text-[#7a520dd0] inter-400 border py-2 px-3'>Información</button>
+          <button className='bg-[#7a520dd0] text-white py-2 px-4 '>Reservación</button>
         </section>
     </div>
     </>
