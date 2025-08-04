@@ -8,17 +8,17 @@ function Novalty({img,title}) {
             <h1 className='fira-sans-extralight animated_white text-4xl inter-200 text-center '>{title}</h1>
             <span className='border h-[1px] mx-20 mt-3 mb-4 border-[#7a520d] '></span>
             <p className='text-center text-[12px] mx-4 text-[#7a520d] inter-300 mb-2'>We want to give you the guarantee that our services are very pleasant for the people who have tried them for the rest of them lives i promise.</p>
-             <section className='flex gap-2'>
-                <span className='border border-[#7a520d] flex gap-2 text-[12px] p-2 bg-black/40 text-white rounded-md'>
-                  <img src={parkingWhite} alt="" className='h-5'/>
+             <section className='flex gap-2 justify-center'>
+                <span className='border border-[#7a520d] flex gap-1 text-[9px] p-2 text-[#7a520d] inter-400 rounded-md'>
+                  <img src={parkingWhite} alt="" className='h-[14px] '/>
                   <h1>Another</h1>
                 </span>
-                <span className='border border-[#7a520d] flex gap-2 text-[12px] p-2 bg-black/40 text-white rounded-md'>
-                  <img src={parkingWhite} alt="" className='h-5'/>
+                <span className='border border-[#7a520d] flex gap-1 text-[9px] p-2 bg-black/40 text-white rounded-md'>
+                  <img src={parkingWhite} alt="" className='h-[14px] '/>
                   <h1>Parking Private</h1>
                 </span>
-                <span className='border border-[#7a520d] flex gap-2 text-[12px] p-2 bg-black/40 text-white rounded-md'>
-                  <img src={parkingWhite} alt="" className='h-5'/>
+                <span className='border border-[#7a520d] flex gap-1 text-[9px] p-2 bg-black/50 text-[#d39e58] inter-400 rounded-md'>
+                  <img src={parkingWhite} alt="" className='h-[14px] '/>
                   <h1>Another</h1>
                 </span>
               </section> 
