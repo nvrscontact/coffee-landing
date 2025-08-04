@@ -61,7 +61,7 @@ function NavBar() {
         
 
       <span className='flex text-white/70 text-center inter-200 mb-3'>© Rosetti's Hotel {date} - All Rights Reserved</span>
-       <span className='flex items-center justify-center text-white/70 inter-200 bg-black/80 w-full py-3 text-[10px] '>Privacy Policy - Terms of use </span>
+       <span className='flex items-center justify-center text-white/70 inter-200 bg-black/80 w-full py-3 text-[10px] '>Privacy Policy - Terms of use - Cookies Policy</span>
       
 
       </div>

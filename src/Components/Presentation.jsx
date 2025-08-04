@@ -31,57 +31,25 @@ function Presentation() {
   <>
       <div className='mt-8 mb-20 '>
 
-              <section className='text-end flex flex-col items-end mr-5'>
-                <h1 className='text-4xl text-[#7a520d] inter-200'>Rosetti's Hotel</h1>
-                <div className='flex ml-2 mb-1 [&>*]:h-5 '>
-                  <img src={Star} alt="" />
-                  <img src={Star} alt="" />
-                  <img src={Star} alt="" />
-                  <img src={Star} alt="" />
-                  <img src={Star} alt="" />
-                  <span className='text-[12px] pt-[3px] text-black/70 inter-300 '>4,5</span>
+              <section className='flex flex-col items-center mb-10'>
+                <div className='flex flex-col items-center gap-1 mb-4 '>
+                    <section className='flex gap-1 items-end ml-4'>
+                    <div className='flex [&>*]:h-4 -space-x-0.5 '>
+                      <img src={Star} alt="" />
+                      <img src={Star} alt="" />
+                      <img src={Star} alt="" />
+                      <img src={Star} alt="" />
+                      <img src={Star} alt="" />
+                    </div>
+                  <span className='text-[10px] text-black/70 inter-300 '>4,5</span>
+                    </section>
                 </div>
+                <h1 className='text-4xl text-[#7a520d] inter-200'>Rosetti's Hotel</h1>
                 <p className='text-[12px] mb-1 flex flex-col items-center text-[#63430b] text-center '>
-                    <span className='inter-300'>Calle Na Saurina de Entenza 60.</span>
-                    <span className='inter-300 flex itmes-center gap-1 '>Benidorm, Alicante</span>
+                    <span className='inter-300 flex itmes-center gap-1 text-[14px] '>Benidorm, Alicante</span>
                 </p>
               </section>
 
-              <section className='flex flex-col justify-center items-center text-black inter-200'>
-                <div className='flex gap-2'>
-                  <section className='text-center space-y-2'>
-                    <h1 className='bg-[#7a520dd5]  py-[6px] px-3  text-white'>Resort</h1>
-                    <img src={resort_hotel} alt="" className=' w-28 h-62 ' />
-                      <div className='flex flex-col items-center   '>
-                      <section className='py-2 px-8 bg-[#1b1b1bd5]'>
-                      <img src={poolWhite} alt="" className='h-6  ' />
-                      </section>
-                      <span className='text-[#1b1b1bd5] inter-500 text-[12px] border-t border-[#1b1b1bd5] px-8 py-2 mt-1 '>Pool </span>
-                    </div>
-                  </section>
-                  <section className='mt-10 text-center space-y-2'>
-                    <h1 className='bg-[#7a520dd5] text-white py-[6px] px-3 '>Hosting</h1>
-                    
-                    <img src={restaurant_hotel} alt="" className=' w-28 h-62' />
-                      <div className='flex flex-col items-center   '>
-                      <section className='py-2 px-8 bg-[#1b1b1bd5]'>
-                      <img src={parkingWhite} alt="" className='h-6  ' />
-                      </section>
-                      <span className='text-[#1b1b1bd5] inter-500 text-[12px] border-t border-[#1b1b1bd5] px-2 py-2 mt-1 '>Parking Free</span>
-                    </div>
-                  </section>
-                  <section className='mt-20 text-center space-y-2'>
-                    <h1 className='bg-[#7a520dd5]  py-[6px] px-3  text-white '>Restaurant</h1>
-                    <img src={hosting_hotel} alt="" className=' w-28 h-62' />
-                    <div className='flex flex-col items-center '>
-                      <section className='py-2 px-8 bg-[#1b1b1bd5]'>
-                      <img src={barWhite} alt="" className='h-6  ' />
-                      </section>
-                      <span className='text-[#1b1b1bd5] inter-500 text-[12px] border-t border-[#1b1b1bd5] px-4 py-2 mt-1 '>Bar & Rest </span>
-                    </div>
-                  </section>
-                </div>
-              </section>
 
         </div>  
     </>

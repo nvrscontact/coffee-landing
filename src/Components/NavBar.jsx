@@ -48,8 +48,8 @@ function NavBar() {
 
       </div>
 
-      <div className='bg-black/90 text-white text-[12px] py-2 text-center inter-300 '>
-        <span>10% Descuento en Habitaciones para dos</span>
+      <div className='bg-black/90 text-white text-[10px] py-2 text-center inter-300 '>
+        <span>10% de descuento en habitaciones de dos personas</span>
       </div>
 
     </>
