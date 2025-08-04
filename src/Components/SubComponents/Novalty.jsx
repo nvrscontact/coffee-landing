@@ -24,9 +24,9 @@ function Novalty({img,title}) {
                     <h1>Elevator</h1>
                   </span>
                 </div>
-            <p className='text-center text-[12px] text-[#7a520d] inter-400 my-4'>We want to give you the guarantee that our services are very pleasant for the people who have tried them for the rest of them lives i promise.</p>
+            <p className='text-center text-[12px] text-[#7a520d] inter-400 my-4'>We want to give you the guarantee that our services are very pleasant for the people who have tried them for the rest of them lives i promise very pleasant for the</p>
         
-              <div className='flex justify-around bg-black/90 py-2'>
+              <div className='flex justify-around bg-black/90 py-2 border-t-[2px] border-[#7a520d] '>
                     <section className='flex items-center relative gap-1'>
                       <img src={elevator} alt="" className='h-4 '/>
                       <span className='text-[10px] text-white inter-600'>Elevator</span>
