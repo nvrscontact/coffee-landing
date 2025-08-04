@@ -8,8 +8,8 @@ function Novalty({img,title}) {
   return (
     <>
           <div className='mx-6 flex flex-col inter-200 mb-10 w-80'>
-            <h1 className='fira-sans-extralight animated_white text-4xl inter-200 text-center '>{title}</h1>
-            <span className='border h-[1px] mx-20 mt-3 mb-2 border-[#7a520d] '></span>
+            <h1 className='text-4xl inter-300 text-center text-[#7a520dd0] '>{title}</h1>
+            <span className='border-[2px] mx-10 my-3 border-[#7a520dd0] '></span>
                 <div className='flex gap-1 justify-center'>
                   <span className=' flex gap-1 text-[9px] py-[6px] px-3  bg-black/80 text-[#ffffff] inter-300 rounded-md items-center justify-center '>
                     <img src={parkingWhite} alt="" className='h-[14px] '/>
@@ -24,9 +24,9 @@ function Novalty({img,title}) {
                     <h1>Elevator</h1>
                   </span>
                 </div>
-            <p className='text-center text-[12px] text-[#7a520d] inter-400 my-4'>We want to give you the guarantee that our services are very pleasant for the people who have tried them for the rest of them lives i promise very pleasant for the</p>
+            <p className='text-center text-[12px] text-black inter-400 my-6'>We want to give you the guarantee that our services are very pleasant for the people who have tried them for the rest of them lives i promise very pleasant for the</p>
         
-              <div className='flex justify-around bg-black/90 py-2 border-t-[2px] border-[#7a520d] '>
+              <div className='flex justify-around bg-black/90 py-2 border-t-[3px] border-[#aa771e] '>
                     <section className='flex items-center relative gap-1'>
                       <img src={elevator} alt="" className='h-4 '/>
                       <span className='text-[10px] text-white inter-600'>Elevator</span>

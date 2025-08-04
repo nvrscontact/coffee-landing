@@ -10,10 +10,12 @@ function HomePage() {
       <>
 
       <Presentation/>
+      <section className='flex flex-col gap-32'>
       <Hotel/>
       <Restaurant/>
       <Resort/>
       <Reviews/>
+      </section>
       
       </>
   )

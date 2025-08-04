@@ -40,16 +40,13 @@ function NavBar() {
             </ul>
           </div>
         
-          <section className='flex gap-4 items-center'>
-           <Link to='/'><img src={Home} alt="" className='h-4 ' /></Link>
-            <img src={Sun} alt="" className='h-4 ' />
-          </section>
+      
         </section>
 
       </div>
 
       <div className='bg-black/90 text-white text-[10px] py-2 text-center inter-300 '>
-        <span>10% de descuento en habitaciones de dos personas</span>
+        <span>10% discount on rooms for two</span>
       </div>
 
     </>
