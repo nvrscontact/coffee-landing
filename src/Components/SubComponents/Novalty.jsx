@@ -26,7 +26,7 @@ function Novalty({img,title}) {
                 </div>
             <p className='text-center text-[12px] text-black inter-400 my-6'>We want to give you the guarantee that our services are very pleasant for the people who have tried them for the rest of them lives i promise very pleasant for the</p>
         
-              <div className='flex justify-around bg-black/90 py-2 border-t-[3px] border-[#aa771e] '>
+              <div className='flex justify-around bg-black/90 py-2 border-t-[3px] border-[#8a5d10] '>
                     <section className='flex items-center relative gap-1'>
                       <img src={elevator} alt="" className='h-4 '/>
                       <span className='text-[10px] text-white inter-600'>Elevator</span>
@@ -45,7 +45,7 @@ function Novalty({img,title}) {
             
               
             <section className='flex flex-col '>
-                <img src={img} alt="" className='w-80' />
+                <img src={img} alt="" className='w-80 h-[28rem]' />
             </section>
     
             <section className='flex flex-col gap-3 items-center border-t-[5px] mx-5 pt-3 border-[#7a520d]'>
