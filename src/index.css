@@ -133,9 +133,3 @@
     pointer-events: none;
     z-index: 3;
 }
-
-   .glow-white {
-      text-shadow:
-        0 0 5px white,
-        0 0 10px white
-    }
