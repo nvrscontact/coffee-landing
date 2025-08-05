@@ -31,7 +31,7 @@ function Presentation() {
 
   return (
   <>
-      <div className='mb-20 '>
+      <div className=''>
               <section className='relative w-full h-[37rem] overflow-hidden'>
                 <video  className='absolute object-cover w-full h-full ' autoPlay loop muted>
                   <source src={hotel_video} type='video/mp4' />
@@ -63,10 +63,14 @@ function Presentation() {
                   </div>
 
               </section>
+
         </div>  
+        <div className='bg-black/90 text-white text-[10px] py-2 text-center inter-300 mb-20'>
+          <span className=''>10% discount on rooms for two persons</span>
+        </div>
     </>
   )
 }
 
-/* 7a520d */
+/* 7a520d  53390be1*/
 export default Presentation

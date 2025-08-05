@@ -45,9 +45,7 @@ function NavBar() {
 
       </div>
 
-      <div className='bg-[#53390be1] text-white text-[10px] py-2 text-center inter-300 '>
-        <span className=''>10% discount on rooms for two persons</span>
-      </div>
+
 
     </>
   )
