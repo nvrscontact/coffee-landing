@@ -10,6 +10,7 @@ import barWhite from '../assets/barWhite.svg'
 import gymWhite from '../assets/gymWhite.svg'
 import spaWhite from '../assets/spaWhite.svg'
 import hotel_video from '../assets/hotel_video.mp4'
+import arrow_link from '../assets/arrow_link.svg'
 
 import Star from '../assets/star.svg'
 
@@ -37,28 +38,26 @@ function Presentation() {
                 </video>
 
                   <div className="absolute top-0 left-0 w-full mt-10">
-                      <section className='flex flex-col items-center '>
+                      <section className='flex flex-col items-start py-3 ml-6 '>
                           <h1 className='text-4xl text-white inter-100'>Rosetti's Hotel</h1>
-                            <p className='text-[12px] flex flex-col space-y-1 items-center text-white text-center '>
-                            <span className='inter-300 flex itmes-center gap-1 text-[16px] '>Benidorm, Alicante</span>
-                         <div className='flex flex-col items-center gap-1 '>
-                            <section className='flex gap-1 items-center ml-2'>
-                              <div className='flex [&>*]:h-5 -space-x-0.5 '>
-                                <img src={Star} alt="" />
-                                <img src={Star} alt="" />
-                                <img src={Star} alt="" />
-                                <img src={Star} alt="" />
-                                <img src={Star} alt="" />
-                              </div>
-                              <span className='text-[10px] text-white inter-300 '>4,5</span>
-                            </section>
-                        </div>
-                          </p>
-                       </section>
+                            <p className='text-[12px] flex flex-col space-y-1 items-start text-white text-center '>
+                                <span className='inter-200 flex itmes-center gap-1 text-[16px] '>Benidorm, Alicante</span>
+                                  <section className='flex gap-1 items-center'>
+                                    <div className='flex [&>*]:h-5 -space-x-0.5 '>
+                                      <img src={Star} alt="" />
+                                      <img src={Star} alt="" />
+                                      <img src={Star} alt="" />
+                                      <img src={Star} alt="" />
+                                      <img src={Star} alt="" />
+                                    </div>
+                                    <span className='text-[10px] text-white inter-300 '>4,5</span>
+                                  </section>
+                            </p>
+                        </section>
                   </div>
 
-                  <div className='absolute inter-200 text-white/70 bottom-15 left-30 space-y-3'>
-                    <h3 className='text-3xl'>Restaurant</h3>
+                  <div className='absolute inter-200 text-white bottom-6 right-6 space-y-6 flex flex-col justify-end items-end w-full glow-white'>
+                    <h3 className='text-2xl flex items-center gap-2 '>Restaurant <img src={arrow_link} alt="" className='h-4 drop-shadow-[0_0_1px_rgb(255,255,255),0_0_0.5px_rgb(255,255,255)]' /></h3>
                   </div>
 
               </section>

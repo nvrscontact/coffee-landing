@@ -23,14 +23,14 @@ function NavBar() {
   return (
     <>
       
-      <div className='bg-[#7a520dd0] inter-300 '>
+      <div className='bg-[#66460fe1] inter-300 '>
 
         <section className='mx-5 flex justify-between items-center relative h-[50px]'>
           <button onClick={toggleMenu}><img src={Hamburger_Menu} alt="" className='h-6' /></button>
           
           <div ref={menuRef} style={{display: 'none', position: 'absolute', top: '35px', left: '5px' }}>
             <ul className='border border-white/30 rounded-[16px] '>
-              <li className='flex flex-col text-white/60 backdrop-blur-md bg-white/10 text-[11px] p-2 m-1 rounded-xl '>
+              <li className='flex flex-col text-white/60 backdrop-blur-md bg-white/20 text-[11px] p-2 m-1 rounded-xl '>
               <span className='p-[6px]' onClick={closeMenu}><Link to='/reservations'>Reservations</Link> </span>
               <span className='p-[6px]' onClick={closeMenu}><Link to='/menus'>Menus & Faqs</Link> </span>
               <span className='p-[6px]' onClick={closeMenu}><Link to='/gallery'>Gallery</Link> </span>
@@ -46,7 +46,7 @@ function NavBar() {
       </div>
 
       <div className='bg-black/90 text-white text-[10px] py-2 text-center inter-300 '>
-        <span>10% discount on rooms for two</span>
+        <span className=''>10% discount on rooms for two persons</span>
       </div>
 
     </>
