@@ -33,7 +33,7 @@ function Presentation() {
   <>
       <div className=''>
               <section className='relative w-full h-[37rem] overflow-hidden'>
-                <video  className='absolute object-cover w-full h-full ' autoPlay loop muted>
+                <video  className='absolute object-cover w-full h-screen ' autoPlay muted loop playsInline>
                   <source src={hotel_video} type='video/mp4' />
                 </video>
 

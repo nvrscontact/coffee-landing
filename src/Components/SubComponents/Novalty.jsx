@@ -9,7 +9,9 @@ function Novalty({img,title}) {
   return (
     <>
     {/* 7a520dd0 */}
-          <div className='mx-6 flex flex-col inter-200 mb-10 w-80'>
+        <article className='flex justify-center'>
+
+          <div className='flex flex-col inter-200 mb-10 w-80 justify-center'>
             <h1 className='text-4xl inter-200 text-center text-black/70 '>{title}</h1>
             <span className='border-[1px] mx-10 my-3 border-black/70'></span>
                 <div className='flex gap-1 justify-center'>
@@ -60,6 +62,8 @@ function Novalty({img,title}) {
                 </div>
             </section>
         </div>
+                </article>
+
     </>
   )
 }
