@@ -23,7 +23,7 @@ function NavBar() {
   return (
     <>
       
-      <div className='bg-[#66460fe1] inter-300 '>
+      <div className='bg-black/90 inter-300 '>
 
         <section className='mx-5 flex justify-between items-center relative h-[50px]'>
           <button onClick={toggleMenu}><img src={Hamburger_Menu} alt="" className='h-6' /></button>
@@ -45,7 +45,7 @@ function NavBar() {
 
       </div>
 
-      <div className='bg-black/90 text-white text-[10px] py-2 text-center inter-300 '>
+      <div className='bg-[#53390be1] text-white text-[10px] py-2 text-center inter-300 '>
         <span className=''>10% discount on rooms for two persons</span>
       </div>
 
@@ -54,3 +54,5 @@ function NavBar() {
 }
 
 export default NavBar
+
+/* 66460fe1 */

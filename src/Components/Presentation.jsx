@@ -10,7 +10,7 @@ import barWhite from '../assets/barWhite.svg'
 import gymWhite from '../assets/gymWhite.svg'
 import spaWhite from '../assets/spaWhite.svg'
 import hotel_video from '../assets/hotel_video.mp4'
-import arrow_link from '../assets/arrow_link.svg'
+import arrow from '../assets/arrow.svg'
 
 import Star from '../assets/star.svg'
 
@@ -43,7 +43,7 @@ function Presentation() {
                             <p className='text-[12px] flex flex-col space-y-1 items-start text-white text-center '>
                                 <span className='inter-200 flex itmes-center gap-1 text-[16px] '>Benidorm, Alicante</span>
                                   <section className='flex gap-1 items-center'>
-                                    <div className='flex [&>*]:h-5 -space-x-0.5 '>
+                                    <div className='flex [&>*]:h-[18px] -space-x-0.5 '>
                                       <img src={Star} alt="" />
                                       <img src={Star} alt="" />
                                       <img src={Star} alt="" />
@@ -56,8 +56,10 @@ function Presentation() {
                         </section>
                   </div>
 
-                  <div className='absolute inter-200 text-white bottom-6 right-6 space-y-6 flex flex-col justify-end items-end w-full glow-white'>
-                    <h3 className='text-2xl flex items-center gap-2 '>Restaurant <img src={arrow_link} alt="" className='h-4 drop-shadow-[0_0_1px_rgb(255,255,255),0_0_0.5px_rgb(255,255,255)]' /></h3>
+                  <div className='absolute inter-200 text-white bottom-6 right-6 space-y-3 flex flex-col justify-end items-end w-full glow-white'>
+                    <h3 className='text-2xl flex items-center gap-3'>Hotel <img src={arrow} alt="" className='h-4 drop-shadow-[0_0_1px_rgb(255,255,255),0_0_0.5px_rgb(255,255,255)]' /></h3>
+                    <h3 className='text-2xl flex items-center gap-3 pr-2 '>Resort <img src={arrow} alt="" className='h-4 drop-shadow-[0_0_1px_rgb(255,255,255),0_0_0.5px_rgb(255,255,255)]' /></h3>
+                    <h3 className='text-2xl flex items-center gap-3 pr-4'>Restaurant <img src={arrow} alt="" className='h-4 drop-shadow-[0_0_1px_rgb(255,255,255),0_0_0.5px_rgb(255,255,255)]' /></h3>
                   </div>
 
               </section>
