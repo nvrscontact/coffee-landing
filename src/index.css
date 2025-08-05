@@ -101,3 +101,29 @@
   font-weight:800;
   font-style: normal;
 }
+
+.blour::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at bottom center, rgb(116, 116, 116), transparent 100%);
+    mix-blend-mode: screen;
+    pointer-events: none;
+    z-index:1;
+}
+
+.blour_two::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at top right, rgb(129, 129, 129), transparent 20%);
+    mix-blend-mode: screen;
+    pointer-events: none;
+    z-index: 3;
+}
