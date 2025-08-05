@@ -36,31 +36,29 @@ function Presentation() {
                   <source src={hotel_video} type='video/mp4' />
                 </video>
 
-                  <div className="absolute top-0 left-0 w-full h-full mt-5 ">
-                      <section className='flex flex-col items-center mb-5'>
-                         <div className='flex flex-col items-center gap-1 mb-4 '>
-                          <section className='flex gap-1 items-end ml-2'>
-                          <div className='flex [&>*]:h-4 -space-x-0.5 '>
-                            <img src={Star} alt="" />
-                            <img src={Star} alt="" />
-                            <img src={Star} alt="" />
-                            <img src={Star} alt="" />
-                            <img src={Star} alt="" />
-                          </div>
-                            <span className='text-[10px] text-black/70 inter-300 '>4,5</span>
-                          </section>
-                       </div>
-                         <h1 className='text-4xl text-white inter-200'>Rosetti's Hotel</h1>
-                          <p className='text-[12px] mb-1 flex flex-col items-center text-white text-center '>
-                          <span className='inter-300 flex itmes-center gap-1 text-[14px] '>Benidorm, Alicante</span>
-                         </p>
+                  <div className="absolute top-0 left-0 w-full mt-10">
+                      <section className='flex flex-col items-center '>
+                          <h1 className='text-4xl text-white inter-100'>Rosetti's Hotel</h1>
+                            <p className='text-[12px] flex flex-col space-y-1 items-center text-white text-center '>
+                            <span className='inter-300 flex itmes-center gap-1 text-[16px] '>Benidorm, Alicante</span>
+                         <div className='flex flex-col items-center gap-1 '>
+                            <section className='flex gap-1 items-center ml-2'>
+                              <div className='flex [&>*]:h-5 -space-x-0.5 '>
+                                <img src={Star} alt="" />
+                                <img src={Star} alt="" />
+                                <img src={Star} alt="" />
+                                <img src={Star} alt="" />
+                                <img src={Star} alt="" />
+                              </div>
+                              <span className='text-[10px] text-white inter-300 '>4,5</span>
+                            </section>
+                        </div>
+                          </p>
                        </section>
                   </div>
 
-                  <div className='absolute inter-200 text-white/70 bottom-10 left-10 space-y-3'>
-                    <h1 className='text-2xl'>Hotel</h1>
-                    <h2 className='text-2xl pl-4'>Resort</h2>
-                    <h3 className='text-2xl pl-8'>Restaurant</h3>
+                  <div className='absolute inter-200 text-white/70 bottom-15 left-30 space-y-3'>
+                    <h3 className='text-3xl'>Restaurant</h3>
                   </div>
 
               </section>
