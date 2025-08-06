@@ -25,22 +25,18 @@ function NavBar() {
       
       <div className='bg-black/90 inter-300 '>
 
-        <section className='mx-5 flex justify-between items-center relative h-[50px]'>
-          <button onClick={toggleMenu}><img src={Hamburger_Menu} alt="" className='h-6' /></button>
-          
-          <div ref={menuRef} style={{display: 'none', position: 'absolute', top: '35px', left: '5px' }}>
-            <ul className='border border-white/30 rounded-[16px] '>
-              <li className='flex flex-col text-white/60 backdrop-blur-md bg-white/20 text-[11px] p-2 m-1 rounded-xl '>
-              <span className='p-[6px]' onClick={closeMenu}><Link to='/reservations'>Reservations</Link> </span>
-              <span className='p-[6px]' onClick={closeMenu}><Link to='/menus'>Menus & Faqs</Link> </span>
-              <span className='p-[6px]' onClick={closeMenu}><Link to='/gallery'>Gallery</Link> </span>
-              <span className='p-[6px]' onClick={closeMenu}><Link to='/help_privacy'>Help & Privacy</Link> </span>
-              <span className='p-[6px]' onClick={closeMenu}><Link to='/'>Home</Link> </span>
-              </li>
-            </ul>
-          </div>
-        
-      
+        <section className=' flex justify-between items-center relative h-[50px] text-white'>
+
+          <details className='list-none pl-4'>
+            <summary className='list-none'><img src={Hamburger_Menu} alt="" className='h-8' /></summary>
+            <section className='absolute left-0 z-3 top-12 bg-black/50 backdrop-blur-xl w-full h-52 p-6'>
+
+                <li>
+                  <ul>Hola</ul>
+                  <ul>Hola</ul>
+                </li>
+            </section>
+          </details>
         </section>
 
       </div>
