@@ -31,7 +31,7 @@ function Presentation() {
 
   return (
   <>
-              <section className='relative w-full h-[45rem] overflow-hidden'>
+              <section className='relative w-full h-[37rem] overflow-hidden'>
                 <video  className='relative object-cover w-full h-screen ' autoPlay muted loop playsInline>
                   <source src={hotel_video} type='video/mp4' />
                 </video>
