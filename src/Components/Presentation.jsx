@@ -11,6 +11,7 @@ import gymWhite from '../assets/gymWhite.svg'
 import spaWhite from '../assets/spaWhite.svg'
 import hotel_video from '../assets/hotel_video.mp4'
 import arrow from '../assets/arrow.svg'
+import arrow_link from '../assets/arrow_link.svg'
 
 import Star from '../assets/star.svg'
 
@@ -55,10 +56,10 @@ function Presentation() {
                         </section>
                   </div>
 
-                  <div className='absolute inter-200 text-white/70 bottom-10 right-6 space-y-3 flex flex-col justify-end items-end w-full'>
-                    <h3 className='text-2xl flex items-center gap-3 '>Hotel <img src={arrow} alt="" className='h-4' /></h3>
-                    <h3 className='text-2xl flex items-center gap-3 '>Resort <img src={arrow} alt="" className='h-4' /></h3>
-                    <h3 className='text-2xl flex items-center gap-3 '>Restaurant <img src={arrow} alt="" className='h-4' /></h3>
+                  <div className='absolute inter-200 text-white/70 bottom-10 right-6 flex flex-col justify-end items-end w-full'>
+                    <h3 className='text-3xl flex items-center gap-2 mb-2'>Hotel<img src={arrow} alt="" className='h-4' /></h3>
+                    <h3 className='text-[18px] flex items-center gap-2 text-white/70 pr-2'>Resort <img src={arrow} alt="" className='h-4' /></h3>
+                    <h3 className='text-[18px] flex items-center gap-2 text-white/70 pr-3'>Restaurant <img src={arrow} alt="" className='h-4' /></h3>
                   </div>
 
 

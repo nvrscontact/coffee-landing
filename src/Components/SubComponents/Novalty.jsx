@@ -50,12 +50,12 @@ function Novalty({img,title}) {
             
               
             <section className='flex flex-col'>
-                <img src={img} alt="" className='w-80 h-[28rem] border-b-[5px] border-[#7a520dd0] mb-5' />
+                <img src={img} alt="" className='w-80 h-[28rem]' />
             </section>
     
-            <section className='flex justify-center gap-3 items-center '>
-                    <button className='text-[#7a520dd0] inter-400 border py-2 px-3'>Información</button>
-                    <button className='bg-[#7a520dd0] text-white py-2 px-4 '>Reservación</button>
+            <section className='flex justify-center gap-3 items-center border-t-[6px] mx-4 pt-5 border-[#7a520dd0] '>
+                    <button className='text-[#7a520dd0] inter-400 border py-2 px-3 rounded-md'>Información</button>
+                    <button className='bg-[#7a520dd0] text-white py-2 px-4 rounded-md'>Reservación</button>
             </section>
 
         </div>
