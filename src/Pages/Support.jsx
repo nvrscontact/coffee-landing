@@ -2,7 +2,12 @@ import React from 'react'
 
 function Support() {
   return (
-    <div>Support</div>
+    <>
+      
+      <section>
+        <p>Support</p>
+      </section>
+    </>
   )
 }
 

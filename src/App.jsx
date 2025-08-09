@@ -16,6 +16,8 @@ import Restaurant from './Pages/Restaurant';
 import Register from './Pages/Register';
 import Login from './Pages/Login';
 import Support from './Pages/Support';
+import Information from './Pages/Information';
+import Reservation from './Pages/Reservation';
 
 function App() {
 
@@ -37,6 +39,8 @@ function App() {
               <Route path='/about_us' element={<About_us />} />
               <Route path='/carreers' element={<Carreers />} />
               <Route path='/help_privacy' element={<Help_Privacy />} />
+              <Route path='/information' element={<Information />} />
+              <Route path='/reservation' element={<Reservation />} />
               <Route path='/support' element={<Support />} />
               <Route path='*' element={<NotFoundPage />} />
         </Route>

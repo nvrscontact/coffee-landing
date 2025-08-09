@@ -42,7 +42,7 @@ return (
       </section>
     </main>
 
-    <aside className='bg-black/90 text-white text-[10px] py-2 text-center inter-300 mb-20'>
+    <aside className='bg-black/90 text-white text-[10px] py-[10px] text-center inter-300 mb-20'>
     <span className=''>10% discount on rooms for two persons</span>
     </aside>
   </>

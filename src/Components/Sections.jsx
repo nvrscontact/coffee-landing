@@ -2,6 +2,8 @@ import parkingWhite from '../assets/parkingWhite.svg'
 import wheelchair from '../assets/wheelchair.svg'
 import elevator from '../assets/elevator.svg'
 import dot from '../assets/dot.svg'
+import {Link} from 'react-router-dom'
+
 
 function Sections({img,title}) {
   return (
@@ -52,8 +54,8 @@ function Sections({img,title}) {
             </section>
     
             <section className='flex justify-center gap-3 items-center border-t-[6px] mx-4 pt-5 border-[#7a520dd0] '>
-                    <button className='text-[#7a520dd0] inter-400 border py-2 px-3 rounded-md'>Información</button>
-                    <button className='bg-[#7a520dd0] text-white py-2 px-4 rounded-md'>Reservación</button>
+                    <button className='text-[#7a520dd0] inter-400 border py-2 px-3 rounded-md '> <Link to={'/information'}>More Info</Link> </button>
+                    <button className='bg-[#7a520dd0] text-white py-2 px-4 rounded-md'> <Link to={'/reservation'}>Reservation</Link> </button>
             </section>
 
         </div>
