@@ -1,8 +1,9 @@
 import Presentation from '../Components/Presentation'
-import Restaurant from '../Components/Restaurant'
-import Reviews from '../Components/Reviews'
-import Resort from '../Components/Resort'
-import Hotel from '../Components/Hotel'
+import Reviews from '../Components/Sec_Reviews'
+import Sections from '../Components/Sections'
+import restaurant_hotel from '../assets/restaurant_hotel.jpg'
+import resort_hotel from '../assets/resort_hotel.jpg'
+import hosting_hotel from '../assets/restaurant_hotel.jpg'
 
 
 function HomePage() {
@@ -11,10 +12,10 @@ function HomePage() {
 
       <Presentation/>
       <section className='flex flex-col gap-32'>
-      <Hotel/>
-      <Restaurant/>
-      <Resort/>
-      <Reviews/>
+        <Sections img={hosting_hotel} title={'Hotel'}/>
+        <Sections img={resort_hotel} title={'Resort'} />
+        <Sections img={restaurant_hotel} title={'Restaurant'}/>
+        <Reviews/>
       </section>
       
       </>

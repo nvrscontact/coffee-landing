@@ -15,6 +15,7 @@ import Resort from './Pages/Resort';
 import Restaurant from './Pages/Restaurant';
 import Register from './Pages/Register';
 import Login from './Pages/Login';
+import Support from './Pages/Support';
 
 function App() {
 
@@ -36,6 +37,7 @@ function App() {
               <Route path='/about_us' element={<About_us />} />
               <Route path='/carreers' element={<Carreers />} />
               <Route path='/help_privacy' element={<Help_Privacy />} />
+              <Route path='/support' element={<Support />} />
               <Route path='*' element={<NotFoundPage />} />
         </Route>
       </Routes>

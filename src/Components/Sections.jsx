@@ -1,11 +1,9 @@
-import React from 'react'
-import parkingWhite from '../../assets/parkingWhite.svg'
-import dot_green from '../../assets/dot_green.svg'
-import wheelchair from '../../assets/wheelchair.svg'
-import elevator from '../../assets/elevator.svg'
-import dot from '../../assets/dot.svg'
+import parkingWhite from '../assets/parkingWhite.svg'
+import wheelchair from '../assets/wheelchair.svg'
+import elevator from '../assets/elevator.svg'
+import dot from '../assets/dot.svg'
 
-function Novalty({img,title}) {
+function Sections({img,title}) {
   return (
     <>
     {/* 7a520dd0 */}
@@ -65,4 +63,4 @@ function Novalty({img,title}) {
   )
 }
 
-export default Novalty
+export default Sections
