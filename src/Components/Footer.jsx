@@ -1,7 +1,6 @@
 import {Link} from 'react-router-dom'
 
 import instagramWhite from '../assets/instagramWhite.svg'
-import arrow_down from '../assets/arrow_down.svg'
 import facebookWhite from '../assets/facebookWhite.svg'
 import Subtitle_Footer from './SubComponents/Subtitle_Footer'
 

@@ -1,4 +1,3 @@
-import React from 'react'
 
 function Benefits({img,title,description}) {
   return (
